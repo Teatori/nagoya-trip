@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#183b34">
-  <meta name="description" content="适合父母手机使用的名古屋景点、餐厅选择器与路线生成器">
-  <meta name="application-version" content="1.0-trip-ready">
-  <title>名古屋家庭旅行助手｜景点、餐厅与路线</title>
+  <meta name="description" content="适合父母手机使用的名古屋景点、餐厅、路线与旅行应急助手">
+  <meta name="application-version" content="1.1-trip-ready">
+  <title>名古屋家庭旅行助手｜景点、餐厅、路线与应急</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="css/style.css?v=4b1">
 </head>
@@ -36,6 +36,7 @@
       <button class="nav-button" type="button" data-view="lunch">午餐</button>
       <button class="nav-button" type="button" data-view="dinner">晚餐</button>
       <button class="nav-button" type="button" data-view="transport">交通</button>
+      <button class="nav-button" type="button" data-view="emergency">应急</button>
       <button class="nav-button nav-selected" type="button" data-view="selected">
         已选择 <span id="selection-count" aria-label="已选择数量">0</span>
       </button>
@@ -118,6 +119,154 @@
         <p>票价为成人参考；实际车次请点击官方时刻表查询。</p>
       </div>
       <div id="transport-list" class="card-grid"></div>
+    </section>
+
+    <section id="view-emergency" class="view-section" data-view-panel="emergency" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">真的遇到事时先看这里</p>
+          <h2>应急与灾害</h2>
+        </div>
+        <p>紧急情况先联系日本当地警察、消防或急救；领事机构和中文热线用于后续协助。</p>
+      </div>
+
+      <div class="notice-box">
+        <h3>先记住：110 警察｜119 消防・急救｜118 海上事故</h3>
+        <p>在名古屋拨打119时，如日语沟通困难，可使用24小时多语言三方口译，包含中文普通话。</p>
+      </div>
+
+      <div class="card-grid">
+        <article class="item-card">
+          <div class="card-topline">
+            <div>
+              <h3>🚨 日本紧急电话</h3>
+              <span>发生危险时优先拨打</span>
+            </div>
+            <span class="candidate-badge">24小时</span>
+          </div>
+          <dl class="fact-list">
+            <div><dt>警察</dt><dd><strong>110</strong>｜犯罪、事故、人身危险</dd></div>
+            <div><dt>消防 / 急救</dt><dd><strong>119</strong>｜火灾、重伤、突发疾病</dd></div>
+            <div><dt>海上事故</dt><dd><strong>118</strong>｜海难、海上紧急情况</dd></div>
+          </dl>
+          <p class="trip-alert"><strong>不会日语：</strong>先说“Chinese / 中文”。名古屋市119可接入多语言口译，不要因为语言问题延误求救。</p>
+          <div class="place-links" aria-label="紧急电话">
+            <a href="tel:110">拨打110</a>
+            <a href="tel:119">拨打119</a>
+            <a href="tel:118">拨打118</a>
+            <a href="https://www.city.nagoya.jp/bousai/shoubou/1012724/1013344/1013346.html" target="_blank" rel="noopener noreferrer">名古屋市119多语言说明</a>
+          </div>
+        </article>
+
+        <article class="item-card">
+          <div class="card-topline">
+            <div>
+              <h3>🇨🇳 中国驻名古屋总领馆</h3>
+              <span>爱知县属于名古屋总领馆领区</span>
+            </div>
+            <span class="candidate-badge">领事保护</span>
+          </div>
+          <dl class="fact-list">
+            <div><dt>领事保护</dt><dd><strong>+81-52-932-1036</strong></dd></div>
+            <div><dt>业务咨询</dt><dd>052-932-1098 / 052-932-1066｜工作日14:00～18:00</dd></div>
+            <div><dt>邮箱</dt><dd>nagoya@csm.mfa.gov.cn</dd></div>
+            <div><dt>地址</dt><dd>名古屋市东区东樱二丁目8番地37号</dd></div>
+          </dl>
+          <p class="trip-alert"><strong>用法：</strong>遇到事故、失联、证件等需要领事协助的情况，可联系总领馆；如有人身危险或需急救，仍应先拨110 / 119。</p>
+          <div class="place-links" aria-label="驻名古屋总领馆联系方式">
+            <a href="tel:+81529321036">拨打领事保护电话</a>
+            <a href="mailto:nagoya@csm.mfa.gov.cn">发送邮件</a>
+            <a href="https://nagoya.china-consulate.gov.cn/lsfw/lsbh/" target="_blank" rel="noopener noreferrer">总领馆领事保护官网</a>
+          </div>
+        </article>
+
+        <article class="item-card">
+          <div class="card-topline">
+            <div>
+              <h3>☎️ 中文求助备用号码</h3>
+              <span>领事与旅行协助</span>
+            </div>
+          </div>
+          <dl class="fact-list">
+            <div><dt>外交部12308</dt><dd><strong>+86-10-12308</strong> / +86-10-65612308｜24小时</dd></div>
+            <div><dt>驻日使馆</dt><dd><strong>+81-3-6450-2195</strong>｜领事保护与协助</dd></div>
+            <div><dt>JNTO</dt><dd><strong>050-3816-2787</strong>｜日本境内拨打，24小时365天</dd></div>
+            <div><dt>JNTO语言</dt><dd>中文、英语、韩语、日语｜事故、疾病、自然灾害及旅行求助</dd></div>
+          </dl>
+          <div class="place-links" aria-label="备用求助电话与官网">
+            <a href="tel:+861012308">拨打12308</a>
+            <a href="tel:+81364502195">拨打驻日使馆</a>
+            <a href="tel:05038162787">拨打JNTO中文热线</a>
+            <a href="https://www.japan.travel/en/plan/hotline/" target="_blank" rel="noopener noreferrer">JNTO官方说明</a>
+          </div>
+        </article>
+
+        <article class="item-card">
+          <div class="card-topline">
+            <div>
+              <h3>🏢 名古屋本地多语言帮助</h3>
+              <span>名古屋国际中心 NIC</span>
+            </div>
+          </div>
+          <dl class="fact-list">
+            <div><dt>咨询电话</dt><dd><strong>052-581-0100</strong></dd></div>
+            <div><dt>可用语言</dt><dd>含中文、英语等多语种；具体中文服务时段以官网为准</dd></div>
+            <div><dt>灾害时</dt><dd>名古屋市发布避难信息后，NIC会提供多语言避难信息；大型灾害时可设外国人震灾救援中心。</dd></div>
+          </dl>
+          <div class="place-links" aria-label="名古屋国际中心">
+            <a href="tel:0525810100">拨打NIC</a>
+            <a href="https://www.nic-nagoya.or.jp/zhongwen/disaster-prevention/" target="_blank" rel="noopener noreferrer">中文防灾信息</a>
+            <a href="https://www.nic-nagoya.or.jp/evacuation/" target="_blank" rel="noopener noreferrer">当前避难信息</a>
+          </div>
+        </article>
+
+        <article class="item-card">
+          <div class="card-topline">
+            <div>
+              <h3>🌏 地震 / 海啸 / 台风怎么做</h3>
+              <span>先保命，再查信息</span>
+            </div>
+          </div>
+          <details class="place-details" open>
+            <summary>地震</summary>
+            <p><strong>正在摇：</strong>保护头部，远离玻璃和可能掉落的物体；在室内不要慌忙冲到室外。</p>
+            <p><strong>摇晃停后：</strong>听从设施、酒店或车站工作人员指示，注意余震；需要时撤到开阔地或指定避难处。</p>
+            <p><strong>在列车上：</strong>抓稳扶手，停车后听从工作人员指示，不要自行下到轨道。</p>
+          </details>
+          <details class="place-details">
+            <summary>海啸</summary>
+            <p>如果在海边或河边遇到强烈或持续较久的地震，或收到海啸警报，立即往高处或海啸避难设施移动。</p>
+            <p>海啸可能反复到来，在警报解除前不要回到海边、河边或低洼区域。</p>
+          </details>
+          <details class="place-details">
+            <summary>台风 / 暴雨</summary>
+            <p>关注日本气象厅和名古屋市避难信息；收到需要避难的指示时，尽早离开危险区域。</p>
+            <p>恶劣天气尽量减少外出，远离海边、河道、山区和积水路段，不要为了赶景点冒险移动。</p>
+          </details>
+        </article>
+
+        <article class="item-card">
+          <div class="card-topline">
+            <div>
+              <h3>📱 实时灾害信息</h3>
+              <span>优先看官方警报</span>
+            </div>
+          </div>
+          <dl class="fact-list">
+            <div><dt>日本气象厅</dt><dd>天气、暴雨、高温、地震、海啸、火山｜有简体中文</dd></div>
+            <div><dt>Safety tips</dt><dd>面向访日游客的官方安全页面 / App，可接收地震、海啸和气象警报，支持简体中文。</dd></div>
+            <div><dt>名古屋避难</dt><dd>名古屋国际中心会发布名古屋市内多语言避难信息。</dd></div>
+          </dl>
+          <div class="place-links" aria-label="灾害信息官网">
+            <a href="https://www.data.jma.go.jp/multi/index.html?lang=cn_zs" target="_blank" rel="noopener noreferrer">气象厅简体中文</a>
+            <a href="https://www.jnto.go.jp/safety-tips/chs/" target="_blank" rel="noopener noreferrer">Safety tips简体中文</a>
+            <a href="https://www.nic-nagoya.or.jp/evacuation/" target="_blank" rel="noopener noreferrer">名古屋当前避难信息</a>
+          </div>
+          <p class="trip-alert"><strong>建议：</strong>出发前把110、119、总领馆领保电话和JNTO热线存进手机；灾害发生时不要只依赖社交媒体转发。</p>
+        </article>
+      </div>
+
+      <p class="result-summary" style="margin-top: 1rem;">联系方式与防灾信息已按官方页面于2026年8月28日核实；号码或服务时间可能调整，长期使用请以对应官网最新信息为准。</p>
     </section>
 
     <section id="view-selected" class="view-section" data-view-panel="selected" hidden>
