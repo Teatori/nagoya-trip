@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#183b34">
+  <meta name="description" content="适合父母手机使用的名古屋景点、餐厅选择器与路线生成器">
+  <meta name="application-version" content="1.0-trip-ready">
+  <title>名古屋家庭旅行助手｜景点、餐厅与路线</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css?v=4b1">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div>
+        <p class="eyebrow">名古屋家庭旅行助手</p>
+        <h1>名古屋家庭旅行助手</h1>
+        <p class="header-note">从名古屋站出发，也可选择名古屋万豪附近</p>
+      </div>
+      <div class="font-controls" aria-label="字号设置">
+        <span>字号</span>
+        <button type="button" data-font-size="large" aria-label="字大一点">A+</button>
+        <button type="button" data-font-size="xlarge" aria-label="字体更大">A++</button>
+        <button type="button" data-font-size="default">恢复</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="primary-nav" aria-label="主要导航">
+    <div class="nav-scroll">
+      <button class="nav-button is-active" type="button" data-view="places">景点</button>
+      <button class="nav-button" type="button" data-view="breakfast">早餐</button>
+      <button class="nav-button" type="button" data-view="lunch">午餐</button>
+      <button class="nav-button" type="button" data-view="dinner">晚餐</button>
+      <button class="nav-button" type="button" data-view="transport">交通</button>
+      <button class="nav-button nav-selected" type="button" data-view="selected">
+        已选择 <span id="selection-count" aria-label="已选择数量">0</span>
+      </button>
+      <button class="nav-button nav-route" type="button" data-view="route">生成路线</button>
+    </div>
+  </nav>
+
+  <main id="main-content" class="page-shell" tabindex="-1">
+    <div id="status-message" class="status-message" role="status" aria-live="polite"></div>
+
+    <section id="view-places" class="view-section" data-view-panel="places">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">先选想去的地方</p>
+          <h2>景点</h2>
+        </div>
+        <p>区域只表示地点互相较近，不代表固定路线。</p>
+      </div>
+
+      <div class="browse-switch" role="group" aria-label="景点浏览方式">
+        <button type="button" class="is-active" data-browse-mode="area">按区域浏览</button>
+        <button type="button" data-browse-mode="recommendation">按推荐浏览</button>
+      </div>
+
+      <div id="area-filters" class="filter-panel">
+        <p class="filter-title">选择区域</p>
+        <div id="area-filter-buttons" class="filter-buttons" role="group" aria-label="区域筛选"></div>
+      </div>
+
+      <div id="recommendation-filters" class="filter-panel" hidden>
+        <p class="filter-title">选择推荐类型</p>
+        <div id="tag-filter-buttons" class="filter-buttons" role="group" aria-label="推荐标签筛选"></div>
+      </div>
+
+      <p id="places-result-summary" class="result-summary"></p>
+      <div id="places-list" class="card-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="view-restaurants" class="view-section" data-view-panel="restaurants" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">先选想吃的餐厅</p>
+          <h2 id="restaurant-view-title">餐厅</h2>
+        </div>
+        <p>先看少量优先推荐；需要更多选择时再展开。</p>
+      </div>
+      <div class="restaurant-filter-bar" aria-label="餐厅快速筛选">
+        <label for="restaurant-area-filter">区域</label>
+        <select id="restaurant-area-filter">
+          <option value="all">全部区域</option>
+        </select>
+        <label class="quick-filter"><input id="restaurant-local-filter" type="checkbox"> 名古屋特色</label>
+        <label class="quick-filter"><input id="restaurant-easy-filter" type="checkbox"> 少排队 / 可预约</label>
+      </div>
+      <p id="restaurants-result-summary" class="result-summary"></p>
+
+      <section class="restaurant-group" aria-labelledby="featured-restaurants-title">
+        <div class="restaurant-group-heading">
+          <div>
+            <p class="eyebrow">先看这里</p>
+            <h3 id="featured-restaurants-title">优先推荐</h3>
+          </div>
+          <p>结合顺路、舒适、排队和实际游览需要，不只看星级。</p>
+        </div>
+        <div id="featured-restaurants-list" class="card-grid restaurant-card-grid" aria-live="polite"></div>
+      </section>
+
+      <details id="more-restaurants" class="more-restaurants">
+        <summary><span>更多选择</span><span id="more-restaurants-count" class="more-count"></span></summary>
+        <div id="restaurants-list" class="card-grid restaurant-card-grid" aria-live="polite"></div>
+      </details>
+    </section>
+
+    <section id="view-transport" class="view-section" data-view-panel="transport" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">出发前先熟悉交通</p>
+          <h2>交通</h2>
+        </div>
+        <p>票价为成人参考；实际车次请点击官方时刻表查询。</p>
+      </div>
+      <div id="transport-list" class="card-grid"></div>
+    </section>
+
+    <section id="view-selected" class="view-section" data-view-panel="selected" hidden>
+      <div class="section-heading selected-heading">
+        <div>
+          <p class="eyebrow">刷新后仍会保留</p>
+          <h2>已选择</h2>
+        </div>
+        <div class="selection-actions">
+          <button id="copy-selection" class="secondary-button" type="button">复制已选清单</button>
+          <button id="clear-selection" class="danger-button" type="button">清空选择</button>
+        </div>
+      </div>
+      <div id="selected-empty" class="empty-state">
+        <h3>还没有选择内容</h3>
+        <p>去“景点”或“餐厅”页面，点击“想去 / 想吃”。</p>
+      </div>
+      <div id="selected-content" hidden>
+        <section class="selected-group">
+          <h3>想去的景点</h3>
+          <div id="selected-places-list" class="compact-list"></div>
+        </section>
+        <section class="selected-group">
+          <h3>想吃的餐厅</h3>
+          <div id="selected-restaurants-list" class="compact-list"></div>
+        </section>
+      </div>
+    </section>
+
+    <section id="view-route" class="view-section" data-view-panel="route" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">把已选地点排成可执行顺序</p>
+          <h2>生成路线</h2>
+        </div>
+        <p>根据已选景点和餐厅，生成访问顺序、参考交通、预算与当天不能安排的项目。</p>
+      </div>
+
+      <form id="route-form" class="route-form">
+        <fieldset>
+          <legend>选择日期</legend>
+          <label class="route-input-label"><span>游玩日期</span><input id="route-date" type="date" name="route-date" required></label>
+          <small>选择具体日期后，会检查星期、固定休馆和已有日期例外。</small>
+        </fieldset>
+        <fieldset>
+          <legend>路线起点</legend>
+          <label><input type="radio" name="route-origin" value="nagoya-station" checked> 名古屋站</label>
+          <label><input type="radio" name="route-origin" value="nagoya-marriott-nearby"> 名古屋万豪附近</label>
+        </fieldset>
+        <fieldset>
+          <legend>游玩时长</legend>
+          <label><input type="radio" name="duration" value="half_day" checked> 半天 <small>3～4小时</small></label>
+          <label><input type="radio" name="duration" value="most_day"> 大半天 <small>5～6小时</small></label>
+          <label><input type="radio" name="duration" value="full_day"> 一整天 <small>7～9小时</small></label>
+        </fieldset>
+        <fieldset>
+          <legend>体力偏好</legend>
+          <label><input type="radio" name="pace" value="easy" checked> 少走路</label>
+          <label><input type="radio" name="pace" value="normal"> 普通</label>
+          <label><input type="radio" name="pace" value="active"> 多逛几个</label>
+        </fieldset>
+        <fieldset>
+          <legend>大约几点开始</legend>
+          <label><input type="radio" name="start-time" value="09:00" checked> 上午开始 <small>约09:00</small></label>
+          <label><input type="radio" name="start-time" value="13:30"> 下午开始 <small>约13:30</small></label>
+        </fieldset>
+        <fieldset>
+          <legend>离境日设置（可选）</legend>
+          <label><input id="route-departure-day" type="checkbox" name="is-departure-day"> 今天是离境日</label>
+          <label id="route-deadline-field" class="route-input-label" hidden><span>希望最晚几点结束游览</span><input id="route-end-deadline" type="time" name="route-end-deadline"></label>
+          <small>未填写结束时间时只给保守提醒，不会猜测机场或航班时间。</small>
+        </fieldset>
+        <button class="primary-button" type="submit">生成正式参考路线</button>
+      </form>
+      <div id="route-result" class="route-result" role="status" aria-live="polite" hidden></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>路线为出发前参考；实际车次请在日本现场使用 Google Maps 并核对运营方时刻表。</p>
+    <p>如果微信内地图没有正常打开，请选择“在浏览器中打开”。</p>
+  </footer>
+
+  <noscript>此页面需要启用 JavaScript 才能读取数据与保存选择。</noscript>
+  <script src="js/maps.js" defer></script>
+  <script src="js/route-planner.js?v=public1"></script>
+  <script src="js/app.js?v=public1" defer></script>
+</body>
+</html>

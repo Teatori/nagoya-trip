@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.1.0",
+  "dataset_status": "configured_areas",
+  "description": "区域用于浏览与路线聚类，表示地点相对接近，不代表固定路线。",
+  "areas": [
+    {
+      "id": "area-meieki",
+      "record_status": "configured_area",
+      "names": {
+        "zh": "名古屋站周边",
+        "ja": "名古屋駅周辺",
+        "en": "Nagoya Station Area"
+      },
+      "aliases": [
+        "名站",
+        "Meieki"
+      ],
+      "sort_order": 10,
+      "description_zh": "名古屋站周边浏览与路线聚类范围；具体路线由用户选择后生成。",
+      "center": {
+        "latitude": null,
+        "longitude": null
+      },
+      "source_ids": [
+        "src-user-trip-requirements"
+      ],
+      "verified_at": "2026-08-28"
+    },
+    {
+      "id": "area-castle-tokugawa",
+      "record_status": "configured_area",
+      "names": {
+        "zh": "名古屋城 / 德川",
+        "ja": "名古屋城・徳川",
+        "en": "Nagoya Castle / Tokugawa"
+      },
+      "aliases": [],
+      "sort_order": 20,
+      "description_zh": "名古屋城 / 德川浏览与路线聚类范围；具体路线由用户选择后生成。",
+      "center": {
+        "latitude": null,
+        "longitude": null
+      },
+      "source_ids": [
+        "src-user-trip-requirements"
+      ],
+      "verified_at": "2026-08-28"
+    },
+    {
+      "id": "area-higashiyama-sakae",
+      "record_status": "configured_area",
+      "names": {
+        "zh": "东山 / 栄",
+        "ja": "東山・栄",
+        "en": "Higashiyama / Sakae"
+      },
+      "aliases": [
+        "东山 / 荣",
+        "栄"
+      ],
+      "sort_order": 30,
+      "description_zh": "东山 / 栄浏览与路线聚类范围；具体路线由用户选择后生成。",
+      "center": {
+        "latitude": null,
+        "longitude": null
+      },
+      "source_ids": [
+        "src-user-trip-requirements"
+      ],
+      "verified_at": "2026-08-28"
+    },
+    {
+      "id": "area-atsuta",
+      "record_status": "configured_area",
+      "names": {
+        "zh": "热田",
+        "ja": "熱田",
+        "en": "Atsuta"
+      },
+      "aliases": [],
+      "sort_order": 40,
+      "description_zh": "热田浏览与路线聚类范围；具体路线由用户选择后生成。",
+      "center": {
+        "latitude": null,
+        "longitude": null
+      },
+      "source_ids": [
+        "src-user-trip-requirements"
+      ],
+      "verified_at": "2026-08-28"
+    },
+    {
+      "id": "area-fushimi-osu",
+      "record_status": "configured_area",
+      "names": {
+        "zh": "伏见 / 大须",
+        "ja": "伏見・大須",
+        "en": "Fushimi / Osu"
+      },
+      "aliases": [],
+      "sort_order": 50,
+      "description_zh": "伏见 / 大须浏览与路线聚类范围；具体路线由用户选择后生成。",
+      "center": {
+        "latitude": null,
+        "longitude": null
+      },
+      "source_ids": [
+        "src-user-trip-requirements"
+      ],
+      "verified_at": "2026-08-28"
+    },
+    {
+      "id": "area-port",
+      "record_status": "configured_area",
+      "names": {
+        "zh": "名古屋港",
+        "ja": "名古屋港",
+        "en": "Port of Nagoya"
+      },
+      "aliases": [],
+      "sort_order": 60,
+      "description_zh": "名古屋港浏览与路线聚类范围；具体路线由用户选择后生成。",
+      "center": {
+        "latitude": null,
+        "longitude": null
+      },
+      "source_ids": [
+        "src-user-trip-requirements"
+      ],
+      "verified_at": "2026-08-28"
+    },
+    {
+      "id": "area-kinjo-futo",
+      "record_status": "configured_area",
+      "names": {
+        "zh": "金城ふ头",
+        "ja": "金城ふ頭",
+        "en": "Kinjo-futo"
+      },
+      "aliases": [
+        "金城码头"
+      ],
+      "sort_order": 70,
+      "description_zh": "金城ふ头浏览与路线聚类范围；具体路线由用户选择后生成。",
+      "center": {
+        "latitude": null,
+        "longitude": null
+      },
+      "source_ids": [
+        "src-user-trip-requirements"
+      ],
+      "verified_at": "2026-08-28"
+    },
+    {
+      "id": "area-inuyama",
+      "record_status": "configured_area",
+      "names": {
+        "zh": "犬山",
+        "ja": "犬山",
+        "en": "Inuyama"
+      },
+      "aliases": [],
+      "sort_order": 80,
+      "description_zh": "犬山浏览与路线聚类范围；具体路线由用户选择后生成。",
+      "center": {
+        "latitude": null,
+        "longitude": null
+      },
+      "source_ids": [
+        "src-user-trip-requirements"
+      ],
+      "verified_at": "2026-08-28"
+    }
+  ]
+}

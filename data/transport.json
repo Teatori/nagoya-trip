@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.2.0",
+  "dataset_status": "phase_4b_researched_transport",
+  "description": "第四阶段B正式交通运营信息；机场/JR/新干线仅保留后续接口。",
+  "transport_options": [
+    {
+      "id": "transport-nagoya-subway",
+      "record_status": "researched_transport",
+      "names": {
+        "zh": "名古屋市地铁",
+        "ja": "名古屋市営地下鉄",
+        "en": "Nagoya Municipal Subway"
+      },
+      "transport_type": "subway",
+      "reference_fare": {
+        "currency": "JPY",
+        "min_amount": 210,
+        "max_amount": 340,
+        "display_text": "成人单程210～340日元（按区间）",
+        "source_ids": [
+          "src-city-transport"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "ticket_types": [
+        {
+          "id": "subway-24-hour",
+          "name_zh": "地铁全线24小时券",
+          "adult_amount": 760,
+          "currency": "JPY",
+          "validity": "首次进闸起24小时",
+          "source_ids": [
+            "src-transit-day-passes"
+          ],
+          "verified_at": "2026-08-28"
+        },
+        {
+          "id": "bus-subway-one-day",
+          "name_zh": "市巴士＋地铁一日券",
+          "adult_amount": 870,
+          "currency": "JPY",
+          "validity": "当日首班至末班",
+          "source_ids": [
+            "src-transit-day-passes"
+          ],
+          "verified_at": "2026-08-28"
+        }
+      ],
+      "ic_card": {
+        "supported": true,
+        "display_text": "支持manaca等全国互通IC卡",
+        "source_ids": [
+          "src-city-transport"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "purchase": {
+        "methods": [
+          "station_ticket_machine",
+          "station_office",
+          "ic_card"
+        ],
+        "display_text": "车站售票机、站务窗口或IC卡",
+        "source_ids": [
+          "src-transit-day-passes"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "boarding": {
+        "board_method": "ticket_gate",
+        "alight_method": "ticket_gate",
+        "display_text": "进出站均过自动闸机",
+        "source_ids": [
+          "src-city-transport"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "links": {
+        "official_site_source_id": "src-transit-subway-network",
+        "official_timetable_source_id": "src-transit-subway-timetable",
+        "official_ticket_source_id": "src-transit-day-passes"
+      },
+      "source_ids": [
+        "src-city-transport",
+        "src-transit-subway-network",
+        "src-transit-subway-timetable",
+        "src-transit-day-passes"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "notes": [
+        "静态路线只保存推荐线路、参考时间和成人普通票价；实际发车以官方时刻表与Google Maps为准。"
+      ]
+    },
+    {
+      "id": "transport-nagoya-city-bus",
+      "record_status": "researched_transport",
+      "names": {
+        "zh": "名古屋市巴士",
+        "ja": "名古屋市営バス",
+        "en": "Nagoya City Bus"
+      },
+      "transport_type": "city_bus",
+      "reference_fare": {
+        "currency": "JPY",
+        "min_amount": 210,
+        "max_amount": 210,
+        "display_text": "成人单次210日元",
+        "source_ids": [
+          "src-transit-day-passes"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "ticket_types": [
+        {
+          "id": "bus-subway-one-day",
+          "name_zh": "市巴士＋地铁一日券",
+          "adult_amount": 870,
+          "currency": "JPY",
+          "validity": "当日",
+          "source_ids": [
+            "src-transit-day-passes"
+          ],
+          "verified_at": "2026-08-28"
+        }
+      ],
+      "ic_card": {
+        "supported": true,
+        "display_text": "支持manaca等全国互通IC卡",
+        "source_ids": [
+          "src-transit-day-passes"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "purchase": {
+        "methods": [
+          "onboard",
+          "ic_card",
+          "station_service_center"
+        ],
+        "display_text": "车内或交通局服务中心购买；普通乘车可刷IC卡",
+        "source_ids": [
+          "src-transit-day-passes"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "boarding": {
+        "board_method": "route_specific",
+        "alight_method": "route_specific",
+        "display_text": "上下车方式按线路现场确认",
+        "source_ids": [
+          "src-transit-subway-timetable"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "links": {
+        "official_site_source_id": "src-transit-subway-network",
+        "official_timetable_source_id": "src-transit-subway-timetable",
+        "official_ticket_source_id": "src-transit-day-passes"
+      },
+      "source_ids": [
+        "src-transit-subway-timetable",
+        "src-transit-day-passes"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "notes": []
+    },
+    {
+      "id": "transport-meguru",
+      "record_status": "researched_transport",
+      "names": {
+        "zh": "Me～guru 名古屋观光巴士",
+        "ja": "なごや観光ルートバス メーグル",
+        "en": "Me-guru Sightseeing Bus"
+      },
+      "transport_type": "sightseeing_bus",
+      "reference_fare": {
+        "currency": "JPY",
+        "min_amount": 210,
+        "max_amount": 210,
+        "display_text": "成人单次210日元",
+        "source_ids": [
+          "src-meguru"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "ticket_types": [
+        {
+          "id": "meguru-one-day",
+          "name_zh": "Me～guru 1DAY券",
+          "adult_amount": 500,
+          "currency": "JPY",
+          "validity": "当日",
+          "source_ids": [
+            "src-meguru",
+            "src-transit-meguru-guide"
+          ],
+          "verified_at": "2026-08-28"
+        }
+      ],
+      "ic_card": {
+        "supported": true,
+        "display_text": "支持manaca",
+        "source_ids": [
+          "src-meguru"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "purchase": {
+        "methods": [
+          "onboard",
+          "tourist_information",
+          "transport_service_center"
+        ],
+        "display_text": "1DAY券可在车内、游客中心或交通局服务中心购买",
+        "source_ids": [
+          "src-transit-meguru-guide"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "boarding": {
+        "board_method": "bus_stop",
+        "alight_method": "bus_stop",
+        "display_text": "按站牌候车；观光循环线需留意运行方向",
+        "source_ids": [
+          "src-transit-meguru-guide"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "links": {
+        "official_site_source_id": "src-transit-meguru-guide",
+        "official_timetable_source_id": "src-transit-meguru-guide",
+        "official_ticket_source_id": "src-transit-meguru-guide"
+      },
+      "source_ids": [
+        "src-meguru",
+        "src-transit-meguru-guide"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "notes": [
+        "周一原则停运（节假日顺延规则按官网）；路线为循环方向，不能把相反方向当成对称车程。"
+      ]
+    },
+    {
+      "id": "transport-meitetsu-inuyama",
+      "record_status": "researched_transport",
+      "names": {
+        "zh": "名铁犬山线",
+        "ja": "名鉄犬山線",
+        "en": "Meitetsu Inuyama Line"
+      },
+      "transport_type": "rail",
+      "reference_fare": {
+        "currency": "JPY",
+        "min_amount": 630,
+        "max_amount": 630,
+        "display_text": "名铁名古屋－犬山成人普通票630日元",
+        "source_ids": [
+          "src-meitetsu"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "ticket_types": [
+        {
+          "id": "first-class-car-ticket",
+          "name_zh": "特别车票（可选）",
+          "adult_amount": 450,
+          "currency": "JPY",
+          "validity": "另加在基本票价上",
+          "source_ids": [
+            "src-meitetsu"
+          ],
+          "verified_at": "2026-08-28"
+        }
+      ],
+      "ic_card": {
+        "supported": true,
+        "display_text": "普通车厢可刷IC卡；特别车另需特别车票",
+        "source_ids": [
+          "src-meitetsu"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "purchase": {
+        "methods": [
+          "station_ticket_machine",
+          "station_counter",
+          "ic_card"
+        ],
+        "display_text": "售票机、窗口或IC卡；特别车票另购",
+        "source_ids": [
+          "src-meitetsu"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "boarding": {
+        "board_method": "ticket_gate",
+        "alight_method": "ticket_gate",
+        "display_text": "名铁名古屋站进闸，犬山站出闸",
+        "source_ids": [
+          "src-meitetsu"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "links": {
+        "official_site_source_id": "src-meitetsu",
+        "official_timetable_source_id": "src-transit-meitetsu-timetable",
+        "official_ticket_source_id": "src-meitetsu"
+      },
+      "source_ids": [
+        "src-meitetsu",
+        "src-transit-meitetsu-timetable"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "notes": [
+        "普通列车无需特别车票；若选特别车，630日元基本票价之外再加450日元。"
+      ]
+    },
+    {
+      "id": "transport-aonami-line",
+      "record_status": "researched_transport",
+      "names": {
+        "zh": "Aonami Line 青波线",
+        "ja": "あおなみ線",
+        "en": "Aonami Line"
+      },
+      "transport_type": "rail",
+      "reference_fare": {
+        "currency": "JPY",
+        "min_amount": 360,
+        "max_amount": 360,
+        "display_text": "名古屋－金城ふ头成人单程360日元",
+        "source_ids": [
+          "src-aonami"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "ticket_types": [],
+      "ic_card": {
+        "supported": true,
+        "display_text": "支持manaca等全国互通IC卡",
+        "source_ids": [
+          "src-aonami"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "purchase": {
+        "methods": [
+          "station_ticket_machine",
+          "ic_card"
+        ],
+        "display_text": "车站售票机或IC卡",
+        "source_ids": [
+          "src-aonami"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "boarding": {
+        "board_method": "ticket_gate",
+        "alight_method": "ticket_gate",
+        "display_text": "进出站均过自动闸机",
+        "source_ids": [
+          "src-aonami"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "links": {
+        "official_site_source_id": "src-aonami",
+        "official_timetable_source_id": "src-transit-aonami-timetable",
+        "official_ticket_source_id": "src-aonami"
+      },
+      "source_ids": [
+        "src-aonami",
+        "src-transit-aonami-timetable",
+        "src-transit-scmaglev-access"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "notes": [
+        "名古屋至金城ふ头官方参考24分钟；铁道馆距金城ふ头站步行约2分钟。"
+      ]
+    },
+    {
+      "id": "transport-meitetsu-airport",
+      "record_status": "future_scope",
+      "names": {
+        "zh": "名铁机场线 / μSKY",
+        "ja": "名鉄空港線 / ミュースカイ",
+        "en": "Meitetsu Airport Line / μSKY"
+      },
+      "transport_type": "airport_rail",
+      "source_ids": [],
+      "last_information_verified_at": null,
+      "notes": [
+        "4B不自动加入机场段；待最终QA确认机场缓冲后再正式化。"
+      ]
+    },
+    {
+      "id": "transport-jr-central",
+      "record_status": "future_scope",
+      "names": {
+        "zh": "JR / JR东海",
+        "ja": "JR東海",
+        "en": "JR Central"
+      },
+      "transport_type": "rail",
+      "source_ids": [],
+      "last_information_verified_at": null,
+      "notes": [
+        "当前正式路线没有必须使用JR的高频段，保留后续接口。"
+      ]
+    },
+    {
+      "id": "transport-shinkansen",
+      "record_status": "future_scope",
+      "names": {
+        "zh": "新干线",
+        "ja": "新幹線",
+        "en": "Shinkansen"
+      },
+      "transport_type": "high_speed_rail",
+      "source_ids": [],
+      "last_information_verified_at": null,
+      "notes": [
+        "不属于本次市内游览路线，保留后续接口。"
+      ]
+    }
+  ]
+}

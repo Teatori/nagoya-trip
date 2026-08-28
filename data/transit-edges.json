@@ -1,0 +1,1467 @@
+{
+  "schema_version": "1.2.0",
+  "dataset_status": "phase_4b_high_frequency_edges",
+  "description": "只覆盖酒店至主要区域及高频连续游览组合；未覆盖组合必须标为估算，不得冒充实时路线。",
+  "nodes": [
+    {
+      "id": "hotel-nagoya-marriott-associa",
+      "node_type": "lodging",
+      "name_zh": "名古屋万豪酒店 / 名古屋站",
+      "location": {
+        "latitude": 35.1709,
+        "longitude": 136.8821
+      },
+      "area_id": "area-meieki"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-hotel-oasis21",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "oasis21",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-oasis21-subway",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "subway",
+          "operator_id": "transport-nagoya-subway",
+          "line": "东山线",
+          "boarding_station": "名古屋 H08",
+          "alighting_station": "栄 H10",
+          "transfer_count": 0,
+          "estimated_minutes": 15,
+          "walking_minutes": 6,
+          "fare_yen": 210,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-city-transport",
+            "src-transit-subway-network",
+            "src-transit-subway-timetable"
+          ],
+          "official_timetable_source_id": "src-transit-subway-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-higashiyama-zoo",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "higashiyama-zoo",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-higashiyama-zoo-subway",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "subway",
+          "operator_id": "transport-nagoya-subway",
+          "line": "东山线",
+          "boarding_station": "名古屋 H08",
+          "alighting_station": "東山公園 H17",
+          "transfer_count": 0,
+          "estimated_minutes": 35,
+          "walking_minutes": 8,
+          "fare_yen": 270,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-city-transport",
+            "src-transit-subway-network",
+            "src-transit-subway-timetable"
+          ],
+          "official_timetable_source_id": "src-transit-subway-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-nagoya-castle",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "nagoya-castle",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-nagoya-castle-subway",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "subway",
+          "operator_id": "transport-nagoya-subway",
+          "line": "樱通线＋名城线",
+          "boarding_station": "名古屋 S02",
+          "alighting_station": "名古屋城 M07",
+          "transfer_count": 1,
+          "estimated_minutes": 25,
+          "walking_minutes": 8,
+          "fare_yen": 240,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-city-transport",
+            "src-transit-subway-network",
+            "src-transit-subway-timetable"
+          ],
+          "official_timetable_source_id": "src-transit-subway-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-tokugawa-garden",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "tokugawa-garden",
+      "bidirectional": false,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-tokugawa-garden-sightseeing_bus",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "sightseeing_bus",
+          "operator_id": "transport-meguru",
+          "line": "Me～guru 观光循环巴士",
+          "boarding_station": "名古屋站11号乘车处",
+          "alighting_station": "德川园・德川美术馆・蓬左文库",
+          "transfer_count": 0,
+          "estimated_minutes": 45,
+          "walking_minutes": 5,
+          "fare_yen": 210,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-meguru",
+            "src-transit-meguru-guide"
+          ],
+          "official_timetable_source_id": "src-transit-meguru-guide",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-tokugawa-garden-hotel",
+      "origin_id": "tokugawa-garden",
+      "destination_id": "hotel-nagoya-marriott-associa",
+      "bidirectional": false,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-tokugawa-garden-hotel-sightseeing_bus",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "sightseeing_bus",
+          "operator_id": "transport-meguru",
+          "line": "Me～guru 观光循环巴士",
+          "boarding_station": "德川园・德川美术馆・蓬左文库",
+          "alighting_station": "名古屋站",
+          "transfer_count": 0,
+          "estimated_minutes": 35,
+          "walking_minutes": 5,
+          "fare_yen": 210,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-meguru",
+            "src-transit-meguru-guide"
+          ],
+          "official_timetable_source_id": "src-transit-meguru-guide",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-atsuta-jingu",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "atsuta-jingu",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-atsuta-jingu-subway",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "subway",
+          "operator_id": "transport-nagoya-subway",
+          "line": "东山线＋名城线",
+          "boarding_station": "名古屋 H08",
+          "alighting_station": "熱田神宮西 M27",
+          "transfer_count": 1,
+          "estimated_minutes": 30,
+          "walking_minutes": 8,
+          "fare_yen": 240,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-city-transport",
+            "src-transit-subway-network",
+            "src-transit-subway-timetable"
+          ],
+          "official_timetable_source_id": "src-transit-subway-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-shirakawa-park",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "shirakawa-park",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-shirakawa-park-subway",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "subway",
+          "operator_id": "transport-nagoya-subway",
+          "line": "东山线",
+          "boarding_station": "名古屋 H08",
+          "alighting_station": "伏見 H09",
+          "transfer_count": 0,
+          "estimated_minutes": 18,
+          "walking_minutes": 8,
+          "fare_yen": 210,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-city-transport",
+            "src-transit-subway-network",
+            "src-transit-subway-timetable"
+          ],
+          "official_timetable_source_id": "src-transit-subway-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-osu-kannon",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "osu-kannon",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-osu-kannon-subway",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "subway",
+          "operator_id": "transport-nagoya-subway",
+          "line": "东山线＋鹤舞线",
+          "boarding_station": "名古屋 H08",
+          "alighting_station": "大須観音 T08",
+          "transfer_count": 1,
+          "estimated_minutes": 25,
+          "walking_minutes": 5,
+          "fare_yen": 240,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-city-transport",
+            "src-transit-subway-network",
+            "src-transit-subway-timetable"
+          ],
+          "official_timetable_source_id": "src-transit-subway-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-nagoya-aquarium",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "nagoya-aquarium",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-nagoya-aquarium-subway",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "subway",
+          "operator_id": "transport-nagoya-subway",
+          "line": "东山线＋名城/名港线",
+          "boarding_station": "名古屋 H08",
+          "alighting_station": "名古屋港 E07",
+          "transfer_count": 1,
+          "estimated_minutes": 40,
+          "walking_minutes": 7,
+          "fare_yen": 270,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-city-transport",
+            "src-transit-subway-timetable",
+            "src-transit-aquarium-access"
+          ],
+          "official_timetable_source_id": "src-transit-subway-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-scmaglev",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "scmaglev",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-scmaglev-train",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "train",
+          "operator_id": "transport-aonami-line",
+          "line": "Aonami Line 青波线",
+          "boarding_station": "名古屋 AN01",
+          "alighting_station": "金城ふ頭 AN11",
+          "transfer_count": 0,
+          "estimated_minutes": 30,
+          "walking_minutes": 6,
+          "fare_yen": 360,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-aonami",
+            "src-transit-aonami-timetable",
+            "src-transit-scmaglev-access"
+          ],
+          "official_timetable_source_id": "src-transit-aonami-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-inuyama-town",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "inuyama-castle-town",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-inuyama-town-train",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "train",
+          "operator_id": "transport-meitetsu-inuyama",
+          "line": "名铁犬山线",
+          "boarding_station": "名铁名古屋",
+          "alighting_station": "犬山",
+          "transfer_count": 0,
+          "estimated_minutes": 50,
+          "walking_minutes": 15,
+          "fare_yen": 630,
+          "fare_type": "adult_regular_reference",
+          "notes": [
+            "普通车厢无需加购特别车票；特别车另加450日元。"
+          ],
+          "source_ids": [
+            "src-meitetsu",
+            "src-transit-meitetsu-timetable"
+          ],
+          "official_timetable_source_id": "src-transit-meitetsu-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-sky-promenade",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "sky-promenade",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-sky-promenade-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 7,
+          "walking_minutes": 7,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-sky",
+            "src-transit-google-maps-routing"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-noritake",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "noritake-garden",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-noritake-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 18,
+          "walking_minutes": 18,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-noritake",
+            "src-transit-google-maps-routing"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-nagoya-castle-kinshachi",
+      "origin_id": "nagoya-castle",
+      "destination_id": "kinshachi-yokocho",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-nagoya-castle-kinshachi-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 5,
+          "walking_minutes": 5,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-nagoya-castle",
+            "src-kinshachi"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-nagoya-castle-meijo-park",
+      "origin_id": "nagoya-castle",
+      "destination_id": "meijo-park",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-nagoya-castle-meijo-park-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 15,
+          "walking_minutes": 15,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-nagoya-castle",
+            "src-meijo"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-nagoya-castle-tokugawa-garden",
+      "origin_id": "nagoya-castle",
+      "destination_id": "tokugawa-garden",
+      "bidirectional": false,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-nagoya-castle-tokugawa-garden-sightseeing_bus",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "sightseeing_bus",
+          "operator_id": "transport-meguru",
+          "line": "Me～guru 观光循环巴士",
+          "boarding_station": "名古屋城",
+          "alighting_station": "德川园・德川美术馆・蓬左文库",
+          "transfer_count": 0,
+          "estimated_minutes": 22,
+          "walking_minutes": 6,
+          "fare_yen": 210,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-meguru",
+            "src-transit-meguru-guide"
+          ],
+          "official_timetable_source_id": "src-transit-meguru-guide",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-tokugawa-garden-art",
+      "origin_id": "tokugawa-garden",
+      "destination_id": "tokugawa-art",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-tokugawa-garden-art-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 4,
+          "walking_minutes": 4,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-tokugawa-garden",
+            "src-google-tokugawa-art"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-oasis-hisaya",
+      "origin_id": "oasis21",
+      "destination_id": "hisaya-odori-park",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-oasis-hisaya-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 4,
+          "walking_minutes": 4,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-oasis",
+            "src-hisaya"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-hisaya-mirai",
+      "origin_id": "hisaya-odori-park",
+      "destination_id": "mirai-tower",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hisaya-mirai-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 4,
+          "walking_minutes": 4,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-hisaya",
+            "src-mirai"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-oasis-mirai",
+      "origin_id": "oasis21",
+      "destination_id": "mirai-tower",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-oasis-mirai-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 7,
+          "walking_minutes": 7,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-oasis",
+            "src-mirai"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-oasis-aichi-art",
+      "origin_id": "oasis21",
+      "destination_id": "aichi-prefectural-art",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-oasis-aichi-art-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 5,
+          "walking_minutes": 5,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-oasis",
+            "src-aichi-art"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-higashiyama-zoo-tower",
+      "origin_id": "higashiyama-zoo",
+      "destination_id": "higashiyama-sky-tower",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-higashiyama-zoo-tower-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 12,
+          "walking_minutes": 12,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-higashiyama-zoo",
+            "src-higashiyama-tower"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-atsuta-kusanagi",
+      "origin_id": "atsuta-jingu",
+      "destination_id": "kusanagi-kan",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-atsuta-kusanagi-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 5,
+          "walking_minutes": 5,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-atsuta-jingu",
+            "src-kusanagi"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-atsuta-treasure",
+      "origin_id": "atsuta-jingu",
+      "destination_id": "atsuta-treasure-hall",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-atsuta-treasure-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 5,
+          "walking_minutes": 5,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-atsuta-jingu",
+            "src-atsuta-treasure"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-atsuta-shirotori",
+      "origin_id": "atsuta-jingu",
+      "destination_id": "shirotori-garden",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-atsuta-shirotori-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 20,
+          "walking_minutes": 20,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [
+            "炎热天气下步行体感会增加；少走路模式可现场改用短程出租车。"
+          ],
+          "source_ids": [
+            "src-google-atsuta-jingu",
+            "src-shirotori"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-shirakawa-science",
+      "origin_id": "shirakawa-park",
+      "destination_id": "nagoya-science",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-shirakawa-science-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 3,
+          "walking_minutes": 3,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-shirakawa",
+            "src-google-nagoya-science"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-shirakawa-city-art",
+      "origin_id": "shirakawa-park",
+      "destination_id": "nagoya-city-art",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-shirakawa-city-art-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 4,
+          "walking_minutes": 4,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-shirakawa",
+            "src-city-art"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-science-osu",
+      "origin_id": "nagoya-science",
+      "destination_id": "osu-kannon",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-science-osu-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 12,
+          "walking_minutes": 12,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-nagoya-science",
+            "src-google-osu-kannon"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-osu-shopping",
+      "origin_id": "osu-kannon",
+      "destination_id": "osu-shopping-street",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-osu-shopping-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 5,
+          "walking_minutes": 5,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-osu-kannon",
+            "src-osu-street"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-osu-oasis",
+      "origin_id": "osu-shopping-street",
+      "destination_id": "oasis21",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-osu-oasis-subway",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "subway",
+          "operator_id": "transport-nagoya-subway",
+          "line": "名城线",
+          "boarding_station": "上前津 M03",
+          "alighting_station": "栄 M05",
+          "transfer_count": 0,
+          "estimated_minutes": 18,
+          "walking_minutes": 9,
+          "fare_yen": 210,
+          "fare_type": "adult_regular_reference",
+          "notes": [],
+          "source_ids": [
+            "src-city-transport",
+            "src-transit-subway-network",
+            "src-transit-subway-timetable"
+          ],
+          "official_timetable_source_id": "src-transit-subway-timetable",
+          "verified_at": "2026-08-27",
+          "confidence": "official_route_and_fare"
+        }
+      ]
+    },
+    {
+      "id": "edge-aquarium-arribada",
+      "origin_id": "nagoya-aquarium",
+      "destination_id": "lunch-arribada-aquarium",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-aquarium-arribada-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 2,
+          "walking_minutes": 2,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-lunch-arribada-aquarium-official",
+            "src-lunch-arribada-aquarium-map"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-scmaglev-makers-pier",
+      "origin_id": "scmaglev",
+      "destination_id": "makers-pier",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-scmaglev-makers-pier-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 5,
+          "walking_minutes": 5,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-scmaglev",
+            "src-makers"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-inuyama-town-castle",
+      "origin_id": "inuyama-castle-town",
+      "destination_id": "inuyama-castle",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-inuyama-town-castle-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 15,
+          "walking_minutes": 15,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-inuyama-town",
+            "src-google-inuyama-castle"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-inuyama-castle-sanko",
+      "origin_id": "inuyama-castle",
+      "destination_id": "sanko-inari",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-inuyama-castle-sanko-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 3,
+          "walking_minutes": 3,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-inuyama-castle",
+            "src-sanko"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-inuyama-castle-haritsuna",
+      "origin_id": "inuyama-castle",
+      "destination_id": "haritsuna-shrine",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-inuyama-castle-haritsuna-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 3,
+          "walking_minutes": 3,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-inuyama-castle",
+            "src-haritsuna"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-inuyama-castle-river",
+      "origin_id": "inuyama-castle",
+      "destination_id": "kiso-river-promenade",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-inuyama-castle-river-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 8,
+          "walking_minutes": 8,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-google-inuyama-castle",
+            "src-kiso"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-inuyama-town-matsunoya",
+      "origin_id": "inuyama-castle-town",
+      "destination_id": "lunch-matsunoya-inuyama",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-inuyama-town-matsunoya-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 10,
+          "walking_minutes": 10,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-lunch-matsunoya-inuyama-official",
+            "src-lunch-matsunoya-inuyama-map"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-atsuta-miyakishimen",
+      "origin_id": "atsuta-jingu",
+      "destination_id": "lunch-miyakishimen-jingu",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-atsuta-miyakishimen-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 2,
+          "walking_minutes": 2,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-lunch-miyakishimen-jingu-official",
+            "src-lunch-miyakishimen-jingu-map"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-atsuta-horaiken",
+      "origin_id": "atsuta-jingu",
+      "destination_id": "lunch-atsuta-horaiken-jingu",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-atsuta-horaiken-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 5,
+          "walking_minutes": 5,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-lunch-atsuta-horaiken-jingu-official",
+            "src-lunch-atsuta-horaiken-jingu-map"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-torigotetsu",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "lunch-torigotetsu",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-torigotetsu-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 5,
+          "walking_minutes": 5,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-lunch-torigotetsu-official",
+            "src-lunch-torigotetsu-map"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    },
+    {
+      "id": "edge-hotel-furaibo",
+      "origin_id": "hotel-nagoya-marriott-associa",
+      "destination_id": "dinner-furaibo-esca",
+      "bidirectional": true,
+      "route_role": "high_frequency",
+      "options": [
+        {
+          "id": "edge-hotel-furaibo-walk",
+          "preference_profiles": [
+            "easy",
+            "normal",
+            "active"
+          ],
+          "mode": "walk",
+          "operator_id": null,
+          "line": null,
+          "boarding_station": null,
+          "alighting_station": null,
+          "transfer_count": 0,
+          "estimated_minutes": 7,
+          "walking_minutes": 7,
+          "fare_yen": 0,
+          "fare_type": "free",
+          "notes": [],
+          "source_ids": [
+            "src-dinner-furaibo-esca-official",
+            "src-dinner-furaibo-esca-map"
+          ],
+          "official_timetable_source_id": null,
+          "verified_at": "2026-08-27",
+          "confidence": "mapped_access_reference"
+        }
+      ]
+    }
+  ]
+}

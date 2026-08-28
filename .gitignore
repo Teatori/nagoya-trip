@@ -1,0 +1,43 @@
+# Local secrets and authentication material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*cookie*
+*token*
+*credential*
+*storage-state*
+*storage_state*
+
+# Browser state must never enter the repository
+browser-profile/
+browser_profile/
+profiles/
+User Data/
+.playwright/
+
+# Local dependencies, logs and generated test output
+node_modules/
+*.log
+*.tmp
+*.temp
+*.cache
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+screenshots/
+
+# Internal research and local backups stay on this computer
+research/
+backups/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

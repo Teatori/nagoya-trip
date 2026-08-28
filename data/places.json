@@ -1,0 +1,6923 @@
+{
+  "schema_version": "1.1.0",
+  "dataset_status": "researched_candidates",
+  "description": "第二阶段正式景点候选。开放、票价、旅行日期例外与来源于2026-08-26核实；出发前仍须复查临时公告。国内平台检索未可靠完成的项目保持空值。",
+  "units": {
+    "duration": "minutes",
+    "distance": "meters",
+    "currency": "JPY"
+  },
+  "places": [
+    {
+      "id": "sky-promenade",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "Midland Square Sky Promenade",
+        "ja": "ミッドランドスクエア スカイプロムナード",
+        "en": "Midland Square Sky Promenade"
+      },
+      "area_id": "area-meieki",
+      "area": "名古屋站周边",
+      "location": {
+        "address": "名古屋市中村区名駅4-7-1 Midland Square 44–46F",
+        "latitude": 35.1706,
+        "longitude": 136.8856,
+        "nearest_stations": [
+          "名古屋站"
+        ],
+        "source_ids": [
+          "src-sky"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "观景台",
+        "城市景观"
+      ],
+      "tags": [
+        "推荐",
+        "景色",
+        "拍照",
+        "少走路",
+        "晚上"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 5,
+          "status": "editorial_recommendation",
+          "reason": "酒店旁、步行少，日落和夜景适合抵达后或轻松晚间。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 1000,
+        "senior_amount": 500,
+        "display_text": "成人平日1,000日元、周末节假日1,200日元；65岁以上半价",
+        "source_ids": [
+          "src-sky"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "11:00",
+            "close": "22:00"
+          }
+        ],
+        "last_admission": "21:30",
+        "display_text": "11:00–22:00；无固定休馆；强风等天气可能临时关闭",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": true,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-sky"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-sky"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 35,
+        "recommended": 60,
+        "slow": 90,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-sky"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 5,
+        "modes": [
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 0
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 0,
+        "reference_route_text": "从酒店经名古屋站步行约5分钟",
+        "source_ids": [
+          "src-city-transport",
+          "src-sky"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "电梯可达；露天观景步道遇强风可能关闭。",
+        "heat_suitability": "high",
+        "heat_notes": "高层通风但部分露天，傍晚更舒适。"
+      },
+      "recommended_time_slots": [
+        "late_afternoon",
+        "evening"
+      ],
+      "links": {
+        "official_site_source_id": "src-sky",
+        "official_hours_source_id": "src-sky",
+        "official_ticket_source_id": "src-sky",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-sky",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "酒店旁的近360度城市观景台，优先安排日落前后。",
+      "notes": []
+    },
+    {
+      "id": "toyota-museum",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "丰田产业技术纪念馆",
+        "ja": "トヨタ産業技術記念館",
+        "en": "Toyota Commemorative Museum of Industry and Technology"
+      },
+      "area_id": "area-meieki",
+      "area": "名古屋站周边",
+      "location": {
+        "address": "名古屋市西区則武新町4-1-35",
+        "latitude": 35.1832,
+        "longitude": 136.8767,
+        "nearest_stations": [
+          "栄生站",
+          "丰田产业技术纪念馆前（Me～guru）"
+        ],
+        "source_ids": [
+          "src-toyota"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "产业博物馆",
+        "室内博物馆"
+      ],
+      "tags": [
+        "推荐",
+        "室内",
+        "避暑",
+        "历史"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "名古屋特色强、室内避暑且交通方便，但产业与汽车内容兴趣导向明显，本次家庭旅行适配为四星。",
+          "source_ids": [
+            "src-google-toyota-museum"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.6,
+              "scale": 5,
+              "review_count": null,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-toyota-museum"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.6/5",
+          "source_ids": [
+            "src-google-toyota-museum"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 1000,
+        "senior_amount": 600,
+        "display_text": "成人1,000日元；65岁以上600日元",
+        "source_ids": [
+          "src-toyota"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:30",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "09:30–17:00；周一休馆（周一为节假日则周二）；年末年初",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇节假日则周二休馆",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-toyota"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-toyota"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 90,
+        "recommended": 150,
+        "slow": 210,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-toyota"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 20,
+        "modes": [
+          "bus",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 210
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 2,
+        "reference_route_text": "名古屋站乘 Me～guru 至纪念馆前，或名铁至栄生后步行",
+        "source_ids": [
+          "src-meguru",
+          "src-toyota"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "馆内有休息区，展厅较大可分段参观。",
+        "barrier_free_notes": "主要展区无障碍可达；动态演示时可能需站立。",
+        "heat_suitability": "high",
+        "heat_notes": "主要为室内，炎热日优先。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-toyota",
+        "official_hours_source_id": "src-toyota",
+        "official_ticket_source_id": "src-toyota",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-toyota",
+        "src-meguru"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "从纺织机械到汽车制造的高质量产业博物馆，建议留2–3小时。",
+      "notes": []
+    },
+    {
+      "id": "noritake-garden",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "则武之森",
+        "ja": "ノリタケの森",
+        "en": "Noritake Garden"
+      },
+      "area_id": "area-meieki",
+      "area": "名古屋站周边",
+      "location": {
+        "address": "名古屋市西区則武新町3-1-36",
+        "latitude": 35.1807,
+        "longitude": 136.8796,
+        "nearest_stations": [
+          "亀島站",
+          "则武之森西（Me～guru）"
+        ],
+        "source_ids": [
+          "src-noritake"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "公园",
+        "工艺博物馆",
+        "购物"
+      ],
+      "tags": [
+        "推荐",
+        "景色",
+        "室内",
+        "少走路",
+        "购物"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "离酒店近，红砖与陶瓷展示兼顾散步和避暑，可与丰田馆顺路。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 500,
+        "senior_amount": 300,
+        "display_text": "园区免费；Craft Center/Museum 成人500日元、65岁以上300日元",
+        "source_ids": [
+          "src-noritake"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:00",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "10:00–17:00；园区开放时间较长；Craft Center/Museum 周一休馆",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇国定假日则次日休馆",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-noritake"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-noritake"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 45,
+        "recommended": 90,
+        "slow": 135,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-noritake"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 15,
+        "modes": [
+          "walk",
+          "bus"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 0
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 5,
+        "reference_route_text": "酒店步行约15分钟；也可乘 Me～guru",
+        "source_ids": [
+          "src-meguru",
+          "src-noritake"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "主要建筑有电梯与无障碍通道；园区为平地。",
+        "heat_suitability": "medium",
+        "heat_notes": "室外园景与室内展馆可交替，正午仍需防晒。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "late_afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-noritake",
+        "official_hours_source_id": "src-noritake",
+        "official_ticket_source_id": "src-noritake",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-noritake",
+        "src-meguru"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "红砖建筑、陶瓷工艺与商场组合，适合轻松半日。",
+      "notes": []
+    },
+    {
+      "id": "endoji-shopping-street",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "圆顿寺商店街",
+        "ja": "円頓寺商店街",
+        "en": "Endoji Shopping Street"
+      },
+      "area_id": "area-meieki",
+      "area": "名古屋站周边",
+      "location": {
+        "address": "名古屋市西区那古野1-6-16一带",
+        "latitude": 35.1762,
+        "longitude": 136.8896,
+        "nearest_stations": [
+          "国际中心站",
+          "圆顿寺通南（Me～guru）"
+        ],
+        "source_ids": [
+          "src-endoji"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "商店街",
+        "历史街区"
+      ],
+      "tags": [
+        "少走路",
+        "购物",
+        "历史"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 3,
+          "status": "editorial_recommendation",
+          "reason": "适合与四间道顺路，不建议单独专程；店铺营业时间不统一。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "公共商店街免费；消费另计",
+        "source_ids": [
+          "src-endoji"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "tuesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "wednesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "thursday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "friday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "saturday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "sunday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "24小时；公共街道全天可通行；店铺各自营业与休息",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-endoji"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-endoji"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 20,
+        "recommended": 45,
+        "slow": 75,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-endoji"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 12,
+        "modes": [
+          "walk",
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 0
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 5,
+        "reference_route_text": "酒店步行约12–15分钟，或樱通线至国际中心站",
+        "source_ids": [
+          "src-city-transport",
+          "src-endoji"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "拱廊与街道基本平坦，个别老店有台阶。",
+        "heat_suitability": "medium",
+        "heat_notes": "部分有顶棚，仍有室外路段。"
+      },
+      "recommended_time_slots": [
+        "late_morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-endoji",
+        "official_hours_source_id": "src-endoji",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-endoji",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "老店与小店混合的商店街，和四间道连看更有价值。",
+      "notes": []
+    },
+    {
+      "id": "shikemichi",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "四间道历史街区",
+        "ja": "四間道",
+        "en": "Historic Townscape of Shikemichi"
+      },
+      "area_id": "area-meieki",
+      "area": "名古屋站周边",
+      "location": {
+        "address": "名古屋市西区那古野1丁目一带",
+        "latitude": 35.1746,
+        "longitude": 136.8926,
+        "nearest_stations": [
+          "国际中心站",
+          "四间道（Me～guru）"
+        ],
+        "source_ids": [
+          "src-shikemichi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "历史街区",
+        "建筑"
+      ],
+      "tags": [
+        "历史",
+        "景色",
+        "拍照",
+        "免费"
+      ],
+      "environment": "outdoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "离酒店近、仓库町屋有特色，适合短时散步；注意车辆与暴晒。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "公共街区免费",
+        "source_ids": [
+          "src-shikemichi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "tuesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "wednesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "thursday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "friday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "saturday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "sunday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "24小时；公共街道全天可通行；店铺时间不一",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-shikemichi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-shikemichi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 20,
+        "recommended": 45,
+        "slow": 75,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-shikemichi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 15,
+        "modes": [
+          "walk",
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 0
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 5,
+        "reference_route_text": "酒店步行约15分钟，或樱通线至国际中心站后步行",
+        "source_ids": [
+          "src-city-transport",
+          "src-shikemichi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "老街路面局部不平；两侧道路车流较多，过街需留意。",
+        "heat_suitability": "low",
+        "heat_notes": "以室外步行为主，建议清晨或傍晚。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "late_afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-shikemichi",
+        "official_hours_source_id": "src-shikemichi",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-shikemichi",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "江户时期商人街区遗存，适合与圆顿寺组成1小时散步。",
+      "notes": []
+    },
+    {
+      "id": "nagoya-castle",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "名古屋城",
+        "ja": "名古屋城",
+        "en": "Nagoya Castle"
+      },
+      "area_id": "area-castle-tokugawa",
+      "area": "名古屋城 / 德川",
+      "location": {
+        "address": "名古屋市中区本丸1-1",
+        "latitude": 35.1856,
+        "longitude": 136.899,
+        "nearest_stations": [
+          "名古屋城站",
+          "名古屋城正门前（Me～guru）"
+        ],
+        "source_ids": [
+          "src-castle"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "城堡",
+        "历史建筑",
+        "庭园"
+      ],
+      "tags": [
+        "推荐",
+        "历史",
+        "景色",
+        "拍照"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 5,
+          "status": "editorial_recommendation",
+          "reason": "名古屋代表景点，本丸御殿值得看；主天守不可入内且园区较大。",
+          "source_ids": [
+            "src-google-nagoya-castle"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.2,
+              "scale": 5,
+              "review_count": 43300,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-nagoya-castle"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.2/5（43,300条）",
+          "source_ids": [
+            "src-google-nagoya-castle"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 500,
+        "senior_amount": null,
+        "display_text": "成人500日元（2026年10月1日起调整，旅行期间仍为500日元）",
+        "source_ids": [
+          "src-castle"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:00",
+            "close": "16:30"
+          }
+        ],
+        "last_admission": "16:00",
+        "display_text": "09:00–16:30；12月29日–1月1日休园；临时活动以官网为准",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-castle"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "旅行日期内预计开放；主天守不能进入，酷暑期间志愿导览暂停至9月23日。",
+        "source_ids": [
+          "src-castle",
+          "src-pretrip-nagoya-castle-guide-suspension"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 75,
+        "recommended": 120,
+        "slow": 180,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-castle"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 22,
+        "modes": [
+          "subway",
+          "bus"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 1,
+        "walk_from_station_minutes": 5,
+        "reference_route_text": "名古屋站经久屋大通换乘名城线至名古屋城站，或乘 Me～guru",
+        "source_ids": [
+          "src-city-transport",
+          "src-castle"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通到较多",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "园区有休息设施，但建筑间距离较长。",
+        "barrier_free_notes": "本丸御殿无障碍可达；主天守目前不可进入。",
+        "heat_suitability": "low",
+        "heat_notes": "园区室外暴晒明显，宜上午先去并补水。"
+      },
+      "recommended_time_slots": [
+        "morning"
+      ],
+      "links": {
+        "official_site_source_id": "src-castle",
+        "official_hours_source_id": "src-castle",
+        "official_ticket_source_id": "src-castle",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-castle",
+        "src-city-transport",
+        "src-pretrip-nagoya-castle-guide-suspension"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "以本丸御殿和城郭园区为核心；不要把“登天守”列入预期。",
+      "notes": [
+        "主天守持续关闭，无法入内。",
+        "官方因酷暑暂停志愿导览至2026-09-23；城内仍开放。"
+      ]
+    },
+    {
+      "id": "kinshachi-yokocho",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "金鯱横丁",
+        "ja": "金シャチ横丁",
+        "en": "Kinshachi Yokocho"
+      },
+      "area_id": "area-castle-tokugawa",
+      "area": "名古屋城 / 德川",
+      "location": {
+        "address": "名古屋市中区三の丸1-2-3～1-2-5一带",
+        "latitude": 35.1837,
+        "longitude": 136.8998,
+        "nearest_stations": [
+          "名古屋城站",
+          "名古屋城正门前（Me～guru）"
+        ],
+        "source_ids": [
+          "src-kinshachi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "商业街",
+        "餐饮街"
+      ],
+      "tags": [
+        "购物",
+        "少走路",
+        "免费"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 3,
+          "status": "editorial_recommendation",
+          "reason": "适合作为名古屋城前后休息用餐点，不建议独立占用行程。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "街区免费；餐饮消费另计",
+        "source_ids": [
+          "src-kinshachi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:30",
+            "close": "17:30"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "10:30–17:30；义直区多与名古屋城同休；宗春区部分店铺营业至22:00，各店不同",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-kinshachi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-kinshachi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 20,
+        "recommended": 45,
+        "slow": 75,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-kinshachi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 22,
+        "modes": [
+          "subway",
+          "bus"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 1,
+        "walk_from_station_minutes": 3,
+        "reference_route_text": "交通同名古屋城",
+        "source_ids": [
+          "src-city-transport",
+          "src-kinshachi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "街区地面基本平坦；个别店铺入口需现场确认。",
+        "heat_suitability": "medium",
+        "heat_notes": "以半室外街区为主，可进店休息。"
+      },
+      "recommended_time_slots": [
+        "lunch",
+        "late_afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-kinshachi",
+        "official_hours_source_id": "src-kinshachi",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-kinshachi",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "名古屋城旁餐饮街，作为顺路休息点价值高于独立景点。",
+      "notes": []
+    },
+    {
+      "id": "meijo-park",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "名城公园",
+        "ja": "名城公園",
+        "en": "Meijo Park"
+      },
+      "area_id": "area-castle-tokugawa",
+      "area": "名古屋城 / 德川",
+      "location": {
+        "address": "名古屋市北区名城1-2-25",
+        "latitude": 35.1901,
+        "longitude": 136.9027,
+        "nearest_stations": [
+          "名城公园站"
+        ],
+        "source_ids": [
+          "src-meijo"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "城市公园",
+        "花园"
+      ],
+      "tags": [
+        "景色",
+        "公园 / 植物园",
+        "免费",
+        "少走路"
+      ],
+      "environment": "outdoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 3,
+          "status": "editorial_recommendation",
+          "reason": "免费且邻近名古屋城，但9月初炎热，适合短暂停留而非专程。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "公园免费",
+        "source_ids": [
+          "src-meijo"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "tuesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "wednesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "thursday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "friday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "saturday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "sunday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "24小时；公园全天开放；Flower Plaza 9:00–16:30，周一及第3周三等休馆",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "Flower Plaza 周一遇节假日则次一工作日休",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-meijo"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-meijo"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 20,
+        "recommended": 45,
+        "slow": 90,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-meijo"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 25,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 1,
+        "walk_from_station_minutes": 3,
+        "reference_route_text": "名古屋站经久屋大通换乘名城线至名城公园站",
+        "source_ids": [
+          "src-city-transport",
+          "src-meijo"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "主要园路平坦，有无障碍厕所。",
+        "heat_suitability": "low",
+        "heat_notes": "大部分在室外，9月初只建议早晚。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "late_afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-meijo",
+        "official_hours_source_id": "src-meijo",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-meijo",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "名古屋城北侧的大型公园，适合天气较凉时顺路散步。",
+      "notes": []
+    },
+    {
+      "id": "tokugawa-garden",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "德川园",
+        "ja": "徳川園",
+        "en": "Tokugawa Garden"
+      },
+      "area_id": "area-castle-tokugawa",
+      "area": "名古屋城 / 德川",
+      "location": {
+        "address": "名古屋市东区德川町1001",
+        "latitude": 35.1838,
+        "longitude": 136.9323,
+        "nearest_stations": [
+          "德川园新出来口（Me～guru）",
+          "大曽根站"
+        ],
+        "source_ids": [
+          "src-tokugawa-garden"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "日式庭园",
+        "历史"
+      ],
+      "tags": [
+        "推荐",
+        "景色",
+        "公园 / 植物园",
+        "拍照"
+      ],
+      "environment": "outdoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 5,
+          "status": "editorial_recommendation",
+          "reason": "日式庭园景观精致，和德川美术馆组合完整；盛夏需控制室外时间。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 300,
+        "senior_amount": null,
+        "display_text": "成人300日元；与名古屋城联票640日元、与白鸟庭园联票480日元",
+        "source_ids": [
+          "src-tokugawa-garden"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:30",
+            "close": "17:30"
+          }
+        ],
+        "last_admission": "17:00",
+        "display_text": "09:30–17:30；周一及12月29日–1月1日休园",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇节假日则次一非节假日休园",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-tokugawa-garden"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "旅行日期内预计开放；官方因酷暑暂停志愿庭园导览至9月18日。",
+        "source_ids": [
+          "src-tokugawa-garden"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 45,
+        "recommended": 75,
+        "slow": 120,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-tokugawa-garden"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 35,
+        "modes": [
+          "bus"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 210
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 2,
+        "reference_route_text": "名古屋站乘 Me～guru 至德川园新出来口",
+        "source_ids": [
+          "src-meguru",
+          "src-tokugawa-garden"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "园路有坡道、石阶与不平路面；无障碍路线需按园内指示。",
+        "heat_suitability": "medium",
+        "heat_notes": "树荫较多但仍是室外；官方夏季志愿导览停至9月18日。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "late_afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-tokugawa-garden",
+        "official_hours_source_id": "src-tokugawa-garden",
+        "official_ticket_source_id": "src-tokugawa-garden",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-tokugawa-garden",
+        "src-meguru"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "池泉回游式日式庭园，建议与德川美术馆同半天。",
+      "notes": [
+        "官方因酷暑暂停志愿导览至2026-09-18。"
+      ]
+    },
+    {
+      "id": "tokugawa-art",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "德川美术馆",
+        "ja": "徳川美術館",
+        "en": "The Tokugawa Art Museum"
+      },
+      "area_id": "area-castle-tokugawa",
+      "area": "名古屋城 / 德川",
+      "location": {
+        "address": "名古屋市东区德川町1017",
+        "latitude": 35.1846,
+        "longitude": 136.9328,
+        "nearest_stations": [
+          "德川园新出来口（Me～guru）",
+          "大曽根站"
+        ],
+        "source_ids": [
+          "src-tokugawa-museum"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "美术馆",
+        "历史博物馆"
+      ],
+      "tags": [
+        "推荐",
+        "室内",
+        "避暑",
+        "历史"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "馆藏质量高且适合避暑，但历史文物兴趣导向较强，更适合作为德川园的室内加项。",
+          "source_ids": [
+            "src-google-tokugawa-art"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.2,
+              "scale": 5,
+              "review_count": null,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-tokugawa-art"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.2/5",
+          "source_ids": [
+            "src-google-tokugawa-art"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 2000,
+        "senior_amount": null,
+        "display_text": "旅行期特展成人2,000日元（2026-07-25至09-27）",
+        "source_ids": [
+          "src-tokugawa-museum"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:00",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "10:00–17:00；周一休馆；旅行日期9月1–4预计开放",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇节假日则次一工作日休馆",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-tokugawa-museum"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-tokugawa-museum"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 60,
+        "recommended": 90,
+        "slow": 135,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-tokugawa-museum"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 35,
+        "modes": [
+          "bus"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 210
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 2,
+        "reference_route_text": "名古屋站乘 Me～guru 至德川园新出来口",
+        "source_ids": [
+          "src-meguru",
+          "src-tokugawa-museum"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "馆内有座椅；官方平均参观约60–90分钟。",
+        "barrier_free_notes": "主要展区无障碍可达。",
+        "heat_suitability": "high",
+        "heat_notes": "室内避暑适配度高。"
+      },
+      "recommended_time_slots": [
+        "late_morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-tokugawa-museum",
+        "official_hours_source_id": "src-tokugawa-museum",
+        "official_ticket_source_id": "src-tokugawa-museum",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-tokugawa-museum",
+        "src-meguru"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "尾张德川家传世文物馆，适合与德川园一室内一室外搭配。",
+      "notes": []
+    },
+    {
+      "id": "futaba-museum",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "文化之路二叶馆",
+        "ja": "文化のみち二葉館",
+        "en": "Cultural Path Futaba Museum"
+      },
+      "area_id": "area-castle-tokugawa",
+      "area": "名古屋城 / 德川",
+      "location": {
+        "address": "名古屋市东区橦木町3-23",
+        "latitude": 35.1839,
+        "longitude": 136.9217,
+        "nearest_stations": [
+          "文化之路二叶馆（Me～guru）",
+          "高岳站"
+        ],
+        "source_ids": [
+          "src-futaba"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "历史建筑",
+        "人物纪念馆"
+      ],
+      "tags": [
+        "历史",
+        "室内",
+        "拍照"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 3,
+          "status": "editorial_recommendation",
+          "reason": "洋馆小而精致，适合与德川区顺路；独立吸引力有限。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 200,
+        "senior_amount": null,
+        "display_text": "成人200日元",
+        "source_ids": [
+          "src-futaba"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:00",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "10:00–17:00；周一及12月29日–1月3日休馆",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇节假日则次日休馆",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-futaba"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-futaba"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 30,
+        "recommended": 50,
+        "slow": 75,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-futaba"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 25,
+        "modes": [
+          "bus"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 210
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 0,
+        "reference_route_text": "名古屋站乘 Me～guru 至馆前",
+        "source_ids": [
+          "src-meguru",
+          "src-futaba"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "馆内有电梯与无障碍厕所；部分历史空间可能狭窄。",
+        "heat_suitability": "high",
+        "heat_notes": "主要为室内。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-futaba",
+        "official_hours_source_id": "src-futaba",
+        "official_ticket_source_id": "src-futaba",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-futaba",
+        "src-meguru"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "明治末期洋馆与名古屋文化史的小型展馆，顺路即可。",
+      "notes": []
+    },
+    {
+      "id": "higashiyama-zoo",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "东山动植物园",
+        "ja": "東山動植物園",
+        "en": "Higashiyama Zoo and Botanical Gardens"
+      },
+      "area_id": "area-higashiyama-sakae",
+      "area": "东山 / 栄",
+      "location": {
+        "address": "名古屋市千种区东山元町3-70",
+        "latitude": 35.1555,
+        "longitude": 136.9803,
+        "nearest_stations": [
+          "东山公园站",
+          "星丘站"
+        ],
+        "source_ids": [
+          "src-higashiyama-zoo"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "动物园",
+        "植物园",
+        "公园"
+      ],
+      "tags": [
+        "推荐",
+        "景色",
+        "公园 / 植物园"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "内容丰富且票价低，但园区极大、九月炎热，对父母体力要求高。",
+          "source_ids": [
+            "src-google-higashiyama-zoo"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.4,
+              "scale": 5,
+              "review_count": 8565,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-higashiyama-zoo"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.4/5（8,565条）",
+          "source_ids": [
+            "src-google-higashiyama-zoo"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 500,
+        "senior_amount": null,
+        "display_text": "成人500日元；与东山天空塔联票640日元",
+        "source_ids": [
+          "src-higashiyama-zoo"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:00",
+            "close": "16:50"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "09:00–16:50；周一及12月29日–1月1日休园",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇节假日则下一工作日休园",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-higashiyama-zoo"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-higashiyama-zoo"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 120,
+        "recommended": 240,
+        "slow": 360,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-higashiyama-zoo"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 35,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 270
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 3,
+        "reference_route_text": "名古屋站乘东山线直达东山公园站",
+        "source_ids": [
+          "src-city-transport",
+          "src-higashiyama-zoo"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "较多",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "园区有餐饮与休息点，但跨区距离很长。",
+        "barrier_free_notes": "可借轮椅，园内有坡道；部分区域起伏明显。",
+        "heat_suitability": "low",
+        "heat_notes": "大面积室外，9月初建议只选重点区、开园即到。"
+      },
+      "recommended_time_slots": [
+        "morning"
+      ],
+      "links": {
+        "official_site_source_id": "src-higashiyama-zoo",
+        "official_hours_source_id": "src-higashiyama-zoo",
+        "official_ticket_source_id": "src-higashiyama-zoo",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-higashiyama-zoo",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "大型综合园区，不建议追求全看；按父母兴趣只选动物或植物重点。",
+      "notes": []
+    },
+    {
+      "id": "higashiyama-sky-tower",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "东山天空塔",
+        "ja": "東山スカイタワー",
+        "en": "Higashiyama Sky Tower"
+      },
+      "area_id": "area-higashiyama-sakae",
+      "area": "东山 / 栄",
+      "location": {
+        "address": "名古屋市千种区田代町瓶杁1-8",
+        "latitude": 35.1536,
+        "longitude": 136.9779,
+        "nearest_stations": [
+          "星丘站",
+          "东山公园站"
+        ],
+        "source_ids": [
+          "src-higashiyama-tower"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "观景台"
+      ],
+      "tags": [
+        "景色",
+        "室内",
+        "拍照",
+        "少走路",
+        "晚上"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 3,
+          "status": "editorial_recommendation",
+          "reason": "可与动植物园联票顺路，单独专程价值一般；夜景可选。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 300,
+        "senior_amount": null,
+        "display_text": "成人300日元；与动植物园联票640日元",
+        "source_ids": [
+          "src-higashiyama-tower"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:00",
+            "close": "21:30"
+          }
+        ],
+        "last_admission": "21:00",
+        "display_text": "09:00–21:30；周一及年末年初休馆",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇节假日则下一工作日休馆",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-higashiyama-tower"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-higashiyama-tower"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 30,
+        "recommended": 50,
+        "slow": 75,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-higashiyama-tower"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 40,
+        "modes": [
+          "subway",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 270
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 15,
+        "reference_route_text": "东山线至星丘站后步行约15分钟；也可从园内前往",
+        "source_ids": [
+          "src-city-transport",
+          "src-higashiyama-tower"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "电梯可达观景层；从车站步行有坡度。",
+        "heat_suitability": "high",
+        "heat_notes": "观景层室内，但车站步行路段炎热。"
+      },
+      "recommended_time_slots": [
+        "late_afternoon",
+        "evening"
+      ],
+      "links": {
+        "official_site_source_id": "src-higashiyama-tower",
+        "official_hours_source_id": "src-higashiyama-tower",
+        "official_ticket_source_id": "src-higashiyama-tower",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-higashiyama-tower",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "东山高地观景塔，更适合作为动植物园附加项。",
+      "notes": []
+    },
+    {
+      "id": "oasis21",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "Oasis 21",
+        "ja": "オアシス21",
+        "en": "Oasis 21"
+      },
+      "area_id": "area-higashiyama-sakae",
+      "area": "东山 / 栄",
+      "location": {
+        "address": "名古屋市东区东桜1-11-1",
+        "latitude": 35.1706,
+        "longitude": 136.9092,
+        "nearest_stations": [
+          "栄站",
+          "栄町站"
+        ],
+        "source_ids": [
+          "src-oasis"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "城市建筑",
+        "商业设施",
+        "观景"
+      ],
+      "tags": [
+        "推荐",
+        "景色",
+        "拍照",
+        "少走路",
+        "免费"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 5,
+          "status": "editorial_recommendation",
+          "reason": "地铁直达、免费、步行少，傍晚景色漂亮，可与久屋公园轻松组合，高度符合父母轻松游览偏好。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "公共空间免费",
+        "source_ids": [
+          "src-oasis"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:00",
+            "close": "21:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "10:00–21:00；水之宇宙船10:00–21:00；银河广场6:00–23:00，店铺各自营业",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-oasis"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-oasis"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 20,
+        "recommended": 45,
+        "slow": 75,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-oasis"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 12,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 0,
+        "reference_route_text": "名古屋站乘东山线直达栄站，地下通道相连",
+        "source_ids": [
+          "src-city-transport",
+          "src-oasis"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "有电梯、扶梯与无障碍通道。",
+        "heat_suitability": "medium",
+        "heat_notes": "地下与室内可避暑，屋顶水之宇宙船为露天。"
+      },
+      "recommended_time_slots": [
+        "late_afternoon",
+        "evening"
+      ],
+      "links": {
+        "official_site_source_id": "src-oasis",
+        "official_hours_source_id": "src-oasis",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-oasis",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "栄地标建筑，建议和MIRAI TOWER、久屋大通公园连看。",
+      "notes": []
+    },
+    {
+      "id": "hisaya-odori-park",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "久屋大通公园",
+        "ja": "久屋大通公園",
+        "en": "Hisaya-odori Park"
+      },
+      "area_id": "area-higashiyama-sakae",
+      "area": "东山 / 栄",
+      "location": {
+        "address": "名古屋市中区丸之内3丁目至錦3丁目一带",
+        "latitude": 35.1712,
+        "longitude": 136.9084,
+        "nearest_stations": [
+          "久屋大通站",
+          "栄站"
+        ],
+        "source_ids": [
+          "src-hisaya"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "城市公园",
+        "商业街"
+      ],
+      "tags": [
+        "推荐",
+        "景色",
+        "购物",
+        "免费",
+        "少走路"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "交通方便、可随时缩短，适合傍晚散步与用餐。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "公园免费；店铺消费另计",
+        "source_ids": [
+          "src-hisaya"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "tuesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "wednesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "thursday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "friday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "saturday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "sunday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "24小时；公园全天开放；商铺营业时间各异",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-hisaya"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-hisaya"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 30,
+        "recommended": 60,
+        "slow": 120,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-hisaya"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 12,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 0,
+        "reference_route_text": "东山线至栄或樱通线至久屋大通",
+        "source_ids": [
+          "src-city-transport",
+          "src-hisaya"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "主要步道平坦，地铁站有无障碍出口。",
+        "heat_suitability": "medium",
+        "heat_notes": "树荫与店铺可休息，仍建议傍晚。"
+      },
+      "recommended_time_slots": [
+        "late_afternoon",
+        "evening"
+      ],
+      "links": {
+        "official_site_source_id": "src-hisaya",
+        "official_hours_source_id": "src-hisaya",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-hisaya",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "现代城市公园与商业带，最适合傍晚轻松散步。",
+      "notes": []
+    },
+    {
+      "id": "mirai-tower",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "中部电力 MIRAI TOWER",
+        "ja": "中部電力 MIRAI TOWER",
+        "en": "Chubu Electric Power MIRAI TOWER"
+      },
+      "area_id": "area-higashiyama-sakae",
+      "area": "东山 / 栄",
+      "location": {
+        "address": "名古屋市中区錦3-6-15先",
+        "latitude": 35.1724,
+        "longitude": 136.9083,
+        "nearest_stations": [
+          "久屋大通站",
+          "栄站"
+        ],
+        "source_ids": [
+          "src-mirai"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "观景塔",
+        "城市地标"
+      ],
+      "tags": [
+        "推荐",
+        "景色",
+        "拍照",
+        "少走路",
+        "晚上"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "夜景与公园灯光组合好，交通方便；与Sky Promenade二选一即可。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 1300,
+        "senior_amount": null,
+        "display_text": "成人1,300日元",
+        "source_ids": [
+          "src-mirai"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:00",
+            "close": "21:00"
+          }
+        ],
+        "last_admission": "20:40",
+        "display_text": "10:00–21:00；周六延长至21:40（最晚21:20）；每年约2天维护休馆",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": true,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-mirai"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-mirai"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 35,
+        "recommended": 60,
+        "slow": 90,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-mirai"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 15,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 2,
+        "reference_route_text": "东山线至栄站或樱通线至久屋大通站",
+        "source_ids": [
+          "src-city-transport",
+          "src-mirai"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "观景层主要乘电梯；部分户外平台依天气开放。",
+        "heat_suitability": "high",
+        "heat_notes": "主要为室内，晚间体验更佳。"
+      },
+      "recommended_time_slots": [
+        "late_afternoon",
+        "evening"
+      ],
+      "links": {
+        "official_site_source_id": "src-mirai",
+        "official_hours_source_id": "src-mirai",
+        "official_ticket_source_id": "src-mirai",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-mirai",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "栄核心夜景地标，和Oasis 21、久屋公园组合。",
+      "notes": []
+    },
+    {
+      "id": "aichi-prefectural-art",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "爱知县美术馆",
+        "ja": "愛知県美術館",
+        "en": "Aichi Prefectural Museum of Art"
+      },
+      "area_id": "area-higashiyama-sakae",
+      "area": "东山 / 栄",
+      "location": {
+        "address": "名古屋市东区东桜1-13-2 爱知艺术文化中心10F",
+        "latitude": 35.1707,
+        "longitude": 136.9113,
+        "nearest_stations": [
+          "栄站",
+          "栄町站"
+        ],
+        "source_ids": [
+          "src-aichi-art"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "美术馆",
+        "室内博物馆"
+      ],
+      "tags": [
+        "室内",
+        "避暑",
+        "艺术",
+        "少走路"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "旅行期恰逢瑞典绘画展，室内避暑；是否参观取决于父母艺术兴趣。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 2000,
+        "senior_amount": null,
+        "display_text": "旅行期“瑞典绘画”展成人当日2,000日元",
+        "source_ids": [
+          "src-aichi-art"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:00",
+            "close": "18:00"
+          }
+        ],
+        "last_admission": "17:30",
+        "display_text": "10:00–18:00；旅行期展览每日10:00–17:00，周五至20:00；9月1–4正常开放",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇指定节假日可能开馆并另日休馆",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-aichi-art"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-aichi-art"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 60,
+        "recommended": 90,
+        "slow": 150,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-aichi-art"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 12,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 2,
+        "reference_route_text": "东山线至栄站，经Oasis 21地下通道前往",
+        "source_ids": [
+          "src-city-transport",
+          "src-aichi-art"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "电梯直达10层，馆内无障碍。",
+        "heat_suitability": "high",
+        "heat_notes": "全室内，适合炎热或下雨时。"
+      },
+      "recommended_time_slots": [
+        "late_morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-aichi-art",
+        "official_hours_source_id": "src-aichi-art",
+        "official_ticket_source_id": "src-aichi-art",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-aichi-art",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "旅行期展出瑞典国家博物馆绘画，属于兴趣型高质量室内候选。",
+      "notes": []
+    },
+    {
+      "id": "atsuta-jingu",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "热田神宫",
+        "ja": "熱田神宮",
+        "en": "Atsuta Jingu Shrine"
+      },
+      "area_id": "area-atsuta",
+      "area": "热田",
+      "location": {
+        "address": "名古屋市热田区神宫1-1-1",
+        "latitude": 35.1271,
+        "longitude": 136.9088,
+        "nearest_stations": [
+          "神宫前站",
+          "热田神宫西站"
+        ],
+        "source_ids": [
+          "src-atsuta"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "神社",
+        "历史",
+        "森林"
+      ],
+      "tags": [
+        "推荐",
+        "历史",
+        "景色",
+        "免费"
+      ],
+      "environment": "outdoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 5,
+          "status": "editorial_recommendation",
+          "reason": "名古屋最重要的历史宗教地标，林荫较多但参道不短。",
+          "source_ids": [
+            "src-google-atsuta-jingu"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.5,
+              "scale": 5,
+              "review_count": 22200,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-atsuta-jingu"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.5/5（22,200条）",
+          "source_ids": [
+            "src-google-atsuta-jingu"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "参拜免费；博物馆另收费",
+        "source_ids": [
+          "src-atsuta"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "tuesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "wednesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "thursday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "friday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "saturday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "sunday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "24小时；神社参拜全年开放；博物馆另有休馆规则",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-atsuta"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-atsuta"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 45,
+        "recommended": 75,
+        "slow": 120,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-atsuta"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 25,
+        "modes": [
+          "rail",
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 3,
+        "reference_route_text": "名铁名古屋至神宫前，或地铁至热田神宫西",
+        "source_ids": [
+          "src-city-transport",
+          "src-atsuta"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "主要参道较平坦但距离较长；有无障碍厕所。",
+        "heat_suitability": "medium",
+        "heat_notes": "树林遮荫较好，仍建议上午。"
+      },
+      "recommended_time_slots": [
+        "morning"
+      ],
+      "links": {
+        "official_site_source_id": "src-atsuta",
+        "official_hours_source_id": "src-atsuta",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-atsuta",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "古树参道与重要神社氛围突出，建议上午避开正午热浪。",
+      "notes": []
+    },
+    {
+      "id": "kusanagi-kan",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "剑之宝库 草薙馆",
+        "ja": "剣の宝庫 草薙館",
+        "en": "Kusanagi-kan Sword Museum"
+      },
+      "area_id": "area-atsuta",
+      "area": "热田",
+      "location": {
+        "address": "名古屋市热田区神宫1-1-1 热田神宫境内",
+        "latitude": 35.1262,
+        "longitude": 136.9086,
+        "nearest_stations": [
+          "神宫前站",
+          "热田神宫西站"
+        ],
+        "source_ids": [
+          "src-kusanagi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "历史博物馆",
+        "刀剑"
+      ],
+      "tags": [
+        "推荐",
+        "室内",
+        "避暑",
+        "历史"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "小型但体验性强，和神宫参拜自然组合。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 500,
+        "senior_amount": null,
+        "display_text": "单馆成人500日元；与宝物馆共通券成人800日元",
+        "source_ids": [
+          "src-kusanagi"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:00",
+            "close": "16:30"
+          }
+        ],
+        "last_admission": "16:00",
+        "display_text": "09:00–16:30；展览更换可能临时休馆；共通券最晚15:30售卖",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": true,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-kusanagi"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-kusanagi"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 30,
+        "recommended": 50,
+        "slow": 75,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-kusanagi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 25,
+        "modes": [
+          "rail",
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 5,
+        "reference_route_text": "交通同热田神宫，位于境内",
+        "source_ids": [
+          "src-city-transport",
+          "src-kusanagi"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "馆内为现代设施；从神宫入口步行有一定距离。",
+        "heat_suitability": "high",
+        "heat_notes": "室内空调，可作为参拜中段避暑。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-kusanagi",
+        "official_hours_source_id": "src-kusanagi",
+        "official_ticket_source_id": "src-kusanagi",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-kusanagi",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "以刀剑与草薙神剑文化为主题，可体验真刀重量。",
+      "notes": []
+    },
+    {
+      "id": "atsuta-treasure-hall",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "热田神宫宝物馆",
+        "ja": "熱田神宮 宝物館",
+        "en": "Atsuta Jingu Treasure Hall"
+      },
+      "area_id": "area-atsuta",
+      "area": "热田",
+      "location": {
+        "address": "名古屋市热田区神宫1-1-1 热田神宫境内",
+        "latitude": 35.1275,
+        "longitude": 136.9078,
+        "nearest_stations": [
+          "神宫前站",
+          "热田神宫西站"
+        ],
+        "source_ids": [
+          "src-atsuta-treasure"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "历史博物馆"
+      ],
+      "tags": [
+        "室内",
+        "避暑",
+        "历史"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 3,
+          "status": "editorial_recommendation",
+          "reason": "馆藏重要但展品轮换，适合对历史兴趣较强者；与草薙馆二选一也可。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 500,
+        "senior_amount": null,
+        "display_text": "成人500日元；特展期间可能调整；草薙馆共通券成人800日元",
+        "source_ids": [
+          "src-atsuta-treasure"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:00",
+            "close": "16:30"
+          }
+        ],
+        "last_admission": "16:00",
+        "display_text": "09:00–16:30；每月最后一个周四及前一日、12月25–31日休馆",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-atsuta-treasure"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-atsuta-treasure"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 30,
+        "recommended": 50,
+        "slow": 75,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-atsuta-treasure"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 25,
+        "modes": [
+          "rail",
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 5,
+        "reference_route_text": "交通同热田神宫，位于境内",
+        "source_ids": [
+          "src-city-transport",
+          "src-atsuta-treasure"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "现代馆舍；从入口步行距离需计入。",
+        "heat_suitability": "high",
+        "heat_notes": "室内空调。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-atsuta-treasure",
+        "official_hours_source_id": "src-atsuta-treasure",
+        "official_ticket_source_id": "src-atsuta-treasure",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-atsuta-treasure",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "神宫宝物轮换展览；旅行日期不逢月末固定闭馆。",
+      "notes": []
+    },
+    {
+      "id": "shirotori-garden",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "白鸟庭园",
+        "ja": "白鳥庭園",
+        "en": "Shirotori Garden"
+      },
+      "area_id": "area-atsuta",
+      "area": "热田",
+      "location": {
+        "address": "名古屋市热田区热田西町2-5",
+        "latitude": 35.1241,
+        "longitude": 136.9001,
+        "nearest_stations": [
+          "热田神宫西站"
+        ],
+        "source_ids": [
+          "src-shirotori"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "日式庭园",
+        "公园"
+      ],
+      "tags": [
+        "推荐",
+        "景色",
+        "公园 / 植物园",
+        "拍照"
+      ],
+      "environment": "outdoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 5,
+          "status": "editorial_recommendation",
+          "reason": "名古屋市内高质量日式庭园，和热田神宫组合好；注意暑热。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 300,
+        "senior_amount": null,
+        "display_text": "成人300日元；初中及以下免费",
+        "source_ids": [
+          "src-shirotori"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "09:00–17:00；周一休园；旅行日期9月1–4正常开放",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇节假日或补休日则次日休园",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-shirotori"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-shirotori"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 45,
+        "recommended": 75,
+        "slow": 120,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-shirotori"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 30,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 270
+        },
+        "transfers": 1,
+        "walk_from_station_minutes": 10,
+        "reference_route_text": "名古屋站经金山换乘名城线至热田神宫西，步行约10分钟",
+        "source_ids": [
+          "src-city-transport",
+          "src-shirotori"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "园内有无障碍厕所，但回游园路含石路、桥与局部坡道。",
+        "heat_suitability": "medium",
+        "heat_notes": "树荫和水景较多，但仍是室外；上午更合适。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "late_afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-shirotori",
+        "official_hours_source_id": "src-shirotori",
+        "official_ticket_source_id": "src-shirotori",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-shirotori",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "池泉回游式庭园，父母景观偏好适配度高。",
+      "notes": []
+    },
+    {
+      "id": "shirakawa-park",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "白川公园",
+        "ja": "白川公園",
+        "en": "Shirakawa Park"
+      },
+      "area_id": "area-fushimi-osu",
+      "area": "伏见 / 大须",
+      "location": {
+        "address": "名古屋市中区栄2-17",
+        "latitude": 35.1656,
+        "longitude": 136.9009,
+        "nearest_stations": [
+          "伏见站",
+          "大须观音站"
+        ],
+        "source_ids": [
+          "src-shirakawa"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "城市公园"
+      ],
+      "tags": [
+        "公园 / 植物园",
+        "免费",
+        "少走路"
+      ],
+      "environment": "outdoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 3,
+          "status": "editorial_recommendation",
+          "reason": "作为科学馆、美术馆间的绿地很合适，不建议单独专程。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "公园免费",
+        "source_ids": [
+          "src-shirakawa"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "tuesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "wednesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "thursday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "friday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "saturday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "sunday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "24小时；公园全天开放；活动与施工以市方公告为准",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-shirakawa"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-shirakawa"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 15,
+        "recommended": 30,
+        "slow": 60,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-shirakawa"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 18,
+        "modes": [
+          "subway",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 8,
+        "reference_route_text": "东山线至伏见站后步行约8分钟",
+        "source_ids": [
+          "src-city-transport",
+          "src-shirakawa"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "主要园路平坦，有公共厕所。",
+        "heat_suitability": "low",
+        "heat_notes": "大部分室外，正午暴晒；只作为顺路连接。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "late_afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-shirakawa",
+        "official_hours_source_id": "src-shirakawa",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-shirakawa",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "科学馆和美术馆之间的城市绿地，适合短歇。",
+      "notes": []
+    },
+    {
+      "id": "nagoya-science",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "FUJI 名古屋市科学馆",
+        "ja": "ＦＵＪＩなごや科学館",
+        "en": "FUJI Nagoya Science Museum"
+      },
+      "area_id": "area-fushimi-osu",
+      "area": "伏见 / 大须",
+      "location": {
+        "address": "名古屋市中区栄2-17-1 白川公园内",
+        "latitude": 35.165,
+        "longitude": 136.8998,
+        "nearest_stations": [
+          "伏见站"
+        ],
+        "source_ids": [
+          "src-science"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "科学馆",
+        "天文馆"
+      ],
+      "tags": [
+        "推荐",
+        "室内",
+        "避暑"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "室内避暑价值高，但科学与天文兴趣导向明显，且9月1日至2日休馆，行程适配度受限。",
+          "source_ids": [
+            "src-google-nagoya-science"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.4,
+              "scale": 5,
+              "review_count": 13065,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-nagoya-science"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.4/5（13,065条）",
+          "source_ids": [
+            "src-google-nagoya-science"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 800,
+        "senior_amount": null,
+        "display_text": "旅行期成人展示室+天文馆800日元；仅展示室400日元",
+        "source_ids": [
+          "src-science",
+          "src-science-calendar"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:30",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "09:30–17:00；2026年9月1日、2日官方日历明确休馆；9月3、4日开放",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday",
+            "third_friday"
+          ],
+          "holiday_shift_rule": "周一遇节假日则紧接工作日休馆；第3周五遇假日则第4周五",
+          "irregular_closures": false,
+          "temporary_closures": [
+            "2026-09-01 closed",
+            "2026-09-02 closed"
+          ]
+        },
+        "source_ids": [
+          "src-science",
+          "src-science-calendar"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "closed_on_some_dates",
+        "dates": {
+          "2026-09-01": "休馆",
+          "2026-09-02": "休馆",
+          "2026-09-03": "开放",
+          "2026-09-04": "开放"
+        },
+        "summary_zh": "只能安排9月3日或9月4日；9月1–2日官方日历标注休馆。",
+        "source_ids": [
+          "src-science",
+          "src-science-calendar"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 90,
+        "recommended": 180,
+        "slow": 300,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-science"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 18,
+        "modes": [
+          "subway",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 8,
+        "reference_route_text": "东山线至伏见站后步行约8分钟",
+        "source_ids": [
+          "src-city-transport",
+          "src-science"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "馆内可分层参观并有休息区；天文馆需按场次入场。",
+        "barrier_free_notes": "电梯和无障碍设施完善；部分体验项目有限制。",
+        "heat_suitability": "high",
+        "heat_notes": "全室内，炎热日优先。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-science",
+        "official_hours_source_id": "src-science",
+        "official_ticket_source_id": "src-science",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-science",
+        "src-science-calendar",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "大型科学馆，天文馆热门；本次旅行只能选9月3–4日。",
+      "notes": []
+    },
+    {
+      "id": "nagoya-city-art",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "名古屋市美术馆",
+        "ja": "名古屋市美術館",
+        "en": "Nagoya City Art Museum"
+      },
+      "area_id": "area-fushimi-osu",
+      "area": "伏见 / 大须",
+      "location": {
+        "address": "名古屋市中区栄2-17-25 白川公园内",
+        "latitude": 35.1644,
+        "longitude": 136.901,
+        "nearest_stations": [
+          "伏见站",
+          "大须观音站"
+        ],
+        "source_ids": [
+          "src-city-art"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "美术馆"
+      ],
+      "tags": [
+        "室内",
+        "避暑",
+        "艺术"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "旅行期有瑞典纺织特展，和科学馆相邻；属于兴趣型选择。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 1900,
+        "senior_amount": null,
+        "display_text": "旅行期“瑞典纺织”展成人1,900日元，含常设展",
+        "source_ids": [
+          "src-city-art",
+          "src-city-art-exhibition"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:30",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "09:30–17:00；周五至20:00；9月1–4开放，9月7日起换展休馆",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "monday"
+          ],
+          "holiday_shift_rule": "周一遇节假日则次一工作日休馆",
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-city-art",
+          "src-city-art-exhibition"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-city-art",
+          "src-city-art-exhibition"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 60,
+        "recommended": 90,
+        "slow": 150,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-city-art"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 18,
+        "modes": [
+          "subway",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 8,
+        "reference_route_text": "东山线至伏见站后步行约8分钟",
+        "source_ids": [
+          "src-city-transport",
+          "src-city-art"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "有电梯和无障碍设施。",
+        "heat_suitability": "high",
+        "heat_notes": "全室内。"
+      },
+      "recommended_time_slots": [
+        "late_morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-city-art",
+        "official_hours_source_id": "src-city-art",
+        "official_ticket_source_id": "src-city-art",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-city-art",
+        "src-city-art-exhibition",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "旅行期最后一周可看瑞典纺织展，9月7日才开始换展闭馆。",
+      "notes": []
+    },
+    {
+      "id": "osu-kannon",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "大须观音",
+        "ja": "大須観音",
+        "en": "Osu Kannon Temple"
+      },
+      "area_id": "area-fushimi-osu",
+      "area": "伏见 / 大须",
+      "location": {
+        "address": "名古屋市中区大须2-21-47",
+        "latitude": 35.1598,
+        "longitude": 136.9,
+        "nearest_stations": [
+          "大须观音站"
+        ],
+        "source_ids": [
+          "src-osu-kannon"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "寺院",
+        "历史"
+      ],
+      "tags": [
+        "推荐",
+        "历史",
+        "免费",
+        "少走路"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "地铁口即达，可作为大须商店街入口，停留灵活。",
+          "source_ids": [
+            "src-google-osu-kannon"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.2,
+              "scale": 5,
+              "review_count": 12029,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-osu-kannon"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.2/5（12,029条）",
+          "source_ids": [
+            "src-google-osu-kannon"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "参拜免费",
+        "source_ids": [
+          "src-osu-kannon"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": null,
+            "close": null
+          }
+        ],
+        "last_admission": null,
+        "display_text": "参拜时间以官网及现场为准；境内通常可参拜，法会期间可能有局部限制",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": true,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-osu-kannon"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-osu-kannon"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 20,
+        "recommended": 35,
+        "slow": 60,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-osu-kannon"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 20,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 1,
+        "walk_from_station_minutes": 2,
+        "reference_route_text": "东山线至伏见换乘鹤舞线至大须观音站",
+        "source_ids": [
+          "src-city-transport",
+          "src-osu-kannon"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "主殿前有台阶，境内部分区域可从侧面缓坡接近。",
+        "heat_suitability": "medium",
+        "heat_notes": "停留短，适合和有顶棚商店街组合。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-osu-kannon",
+        "official_hours_source_id": "src-osu-kannon",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-osu-kannon",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "大须商圈的历史入口，建议与商店街连看。",
+      "notes": []
+    },
+    {
+      "id": "osu-shopping-street",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "大须商店街",
+        "ja": "大須商店街",
+        "en": "Osu Shopping District"
+      },
+      "area_id": "area-fushimi-osu",
+      "area": "伏见 / 大须",
+      "location": {
+        "address": "名古屋市中区大须一带",
+        "latitude": 35.159,
+        "longitude": 136.9052,
+        "nearest_stations": [
+          "大须观音站",
+          "上前津站"
+        ],
+        "source_ids": [
+          "src-osu-street"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "商店街",
+        "购物"
+      ],
+      "tags": [
+        "推荐",
+        "购物",
+        "少走路"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "拱廊遮阳、店铺多、可随时休息，但周末和午后可能拥挤。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "公共商店街免费；消费另计",
+        "source_ids": [
+          "src-osu-street"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:00",
+            "close": "20:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "10:00–20:00；各店营业时间与休息日不同；公共通道可通行",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-osu-street"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-osu-street"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 60,
+        "recommended": 120,
+        "slow": 180,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-osu-street"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 20,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 240
+        },
+        "transfers": 1,
+        "walk_from_station_minutes": 2,
+        "reference_route_text": "至大须观音站或上前津站进入商圈",
+        "source_ids": [
+          "src-city-transport",
+          "src-osu-street"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "餐饮与咖啡店多，休息容易。",
+        "barrier_free_notes": "主拱廊基本平坦；支路与个别店铺有门槛。",
+        "heat_suitability": "medium",
+        "heat_notes": "主要拱廊有遮阳，仍需留意闷热。"
+      },
+      "recommended_time_slots": [
+        "late_morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-osu-street",
+        "official_hours_source_id": "src-osu-street",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-osu-street",
+        "src-city-transport"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "规模大的混合商圈，适合轻松购物与用餐。",
+      "notes": []
+    },
+    {
+      "id": "nagoya-aquarium",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "名古屋港水族馆",
+        "ja": "名古屋港水族館",
+        "en": "Port of Nagoya Public Aquarium"
+      },
+      "area_id": "area-port",
+      "area": "名古屋港",
+      "location": {
+        "address": "名古屋市港区港町1-3",
+        "latitude": 35.0907,
+        "longitude": 136.8789,
+        "nearest_stations": [
+          "名古屋港站"
+        ],
+        "source_ids": [
+          "src-aquarium"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "水族馆",
+        "室内景点"
+      ],
+      "tags": [
+        "推荐",
+        "室内",
+        "避暑"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 5,
+          "status": "editorial_recommendation",
+          "reason": "高质量大型室内景点，适合炎热日；周边多馆因赛事关闭但水族馆正常。",
+          "source_ids": [
+            "src-google-nagoya-aquarium",
+            "src-tripadvisor-nagoya-aquarium"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google",
+            "tripadvisor"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.4,
+              "scale": 5,
+              "review_count": 22668,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-nagoya-aquarium"
+              ],
+              "verified_at": "2026-08-26"
+            },
+            {
+              "platform": "tripadvisor",
+              "score": 4.3,
+              "scale": 5,
+              "review_count": 1298,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-tripadvisor-nagoya-aquarium"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.4/5（22,668条）；Tripadvisor 4.3/5（1,298条）",
+          "source_ids": [
+            "src-google-nagoya-aquarium",
+            "src-tripadvisor-nagoya-aquarium"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 2030,
+        "senior_amount": null,
+        "display_text": "成人2,030日元",
+        "source_ids": [
+          "src-aquarium",
+          "src-aquarium-fee",
+          "src-port-closure"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:30",
+            "close": "17:30"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "09:30–17:30；7–9月通常无固定休馆；维护临时休馆以活动日历为准",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": true,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-aquarium",
+          "src-aquarium-fee",
+          "src-port-closure"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "open_with_area_closures",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "水族馆预计正常开放；港口大楼全馆（含海洋博物馆与展望室）、南极观测船富士、Port House于8月1日至11月30日关闭。",
+        "source_ids": [
+          "src-aquarium",
+          "src-aquarium-fee",
+          "src-port-closure",
+          "src-pretrip-port-facilities-closure"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 150,
+        "recommended": 240,
+        "slow": 330,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-aquarium"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 35,
+        "modes": [
+          "subway"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 270
+        },
+        "transfers": 1,
+        "walk_from_station_minutes": 5,
+        "reference_route_text": "名古屋站乘东山线至栄换名城/名港线至名古屋港站",
+        "source_ids": [
+          "src-city-transport",
+          "src-aquarium"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "馆内有餐饮和休息区，表演场次需提前查看。",
+        "barrier_free_notes": "馆内电梯与无障碍设施完善，面积大需控制步数。",
+        "heat_suitability": "high",
+        "heat_notes": "大部分室内，炎热日非常适合。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-aquarium",
+        "official_hours_source_id": "src-aquarium",
+        "official_ticket_source_id": "src-aquarium",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-aquarium",
+        "src-aquarium-fee",
+        "src-port-closure",
+        "src-city-transport",
+        "src-pretrip-port-facilities-closure"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "本次家庭旅行的一线室内候选；周边赛事关闭设施不要纳入联游。",
+      "notes": [
+        "2026-08-01至11-30，港口大楼全馆（含海洋博物馆与展望室）、南极观测船富士及Port House关闭；水族馆本身预计开放。"
+      ]
+    },
+    {
+      "id": "scmaglev",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "磁悬浮・铁道馆",
+        "ja": "リニア・鉄道館",
+        "en": "SCMAGLEV and Railway Park"
+      },
+      "area_id": "area-kinjo-futo",
+      "area": "金城ふ头",
+      "location": {
+        "address": "名古屋市港区金城ふ头3-2-2",
+        "latitude": 35.0489,
+        "longitude": 136.849,
+        "nearest_stations": [
+          "金城ふ头站"
+        ],
+        "source_ids": [
+          "src-scmaglev"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "铁路博物馆",
+        "产业博物馆"
+      ],
+      "tags": [
+        "推荐",
+        "室内",
+        "避暑"
+      ],
+      "environment": "indoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "全室内且展示质量高，但铁路兴趣导向明显，需专程前往金城ふ头且9月1日休馆。",
+          "source_ids": [
+            "src-google-scmaglev"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.4,
+              "scale": 5,
+              "review_count": 11285,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-scmaglev"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.4/5（11,285条）",
+          "source_ids": [
+            "src-google-scmaglev"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 1200,
+        "senior_amount": null,
+        "display_text": "成人1,200日元",
+        "source_ids": [
+          "src-scmaglev"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:00",
+            "close": "17:30"
+          }
+        ],
+        "last_admission": "17:00",
+        "display_text": "10:00–17:30；每周二、12月28日–1月1日；2026年9月1日闭馆",
+        "closure_rules": {
+          "fixed_weekdays": [
+            "tuesday"
+          ],
+          "holiday_shift_rule": "周二遇国定假日则次日休馆",
+          "irregular_closures": false,
+          "temporary_closures": [
+            "2026-09-01 closed"
+          ]
+        },
+        "source_ids": [
+          "src-scmaglev"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "closed_on_some_dates",
+        "dates": {
+          "2026-09-01": "休馆",
+          "2026-09-02": "开放",
+          "2026-09-03": "开放",
+          "2026-09-04": "开放"
+        },
+        "summary_zh": "9月1日为周二固定休馆；只能安排9月2–4日。",
+        "source_ids": [
+          "src-scmaglev"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 90,
+        "recommended": 150,
+        "slow": 210,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-scmaglev"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 30,
+        "modes": [
+          "rail"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 360
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 2,
+        "reference_route_text": "名古屋站乘Aonami Line直达金城ふ头（约24分钟）",
+        "source_ids": [
+          "src-aonami",
+          "src-scmaglev"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "馆内有休息和餐饮设施，展车集中。",
+        "barrier_free_notes": "现代馆舍无障碍完善。",
+        "heat_suitability": "high",
+        "heat_notes": "全室内，炎热日优先。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-scmaglev",
+        "official_hours_source_id": "src-scmaglev",
+        "official_ticket_source_id": "src-scmaglev",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-scmaglev",
+        "src-aonami"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "实车、新干线与磁悬浮展示丰富，9月1日不可安排。",
+      "notes": []
+    },
+    {
+      "id": "makers-pier",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "Maker's Pier",
+        "ja": "メイカーズピア",
+        "en": "Maker's Pier"
+      },
+      "area_id": "area-kinjo-futo",
+      "area": "金城ふ头",
+      "location": {
+        "address": "名古屋市港区金城ふ头2-7-1",
+        "latitude": 35.05,
+        "longitude": 136.8465,
+        "nearest_stations": [
+          "金城ふ头站"
+        ],
+        "source_ids": [
+          "src-makers"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "商业设施",
+        "餐饮街"
+      ],
+      "tags": [
+        "购物",
+        "少走路",
+        "免费"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 3,
+          "status": "editorial_recommendation",
+          "reason": "作为铁道馆前后用餐休息点合适，独立吸引力一般。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "公共街区免费；体验与餐饮另收费",
+        "source_ids": [
+          "src-makers"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "10:00",
+            "close": "20:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "10:00–20:00；各店营业与休息日不同，部分店周三休",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": true,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-makers"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-makers"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 30,
+        "recommended": 60,
+        "slow": 120,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-makers"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 30,
+        "modes": [
+          "rail"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 360
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 3,
+        "reference_route_text": "Aonami Line至金城ふ头后步行",
+        "source_ids": [
+          "src-aonami",
+          "src-makers"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "主要公共区域平坦；个别店铺门槛需现场确认。",
+        "heat_suitability": "medium",
+        "heat_notes": "半室外，正午可能闷热；进店休息方便。"
+      },
+      "recommended_time_slots": [
+        "lunch",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-makers",
+        "official_hours_source_id": "src-makers",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-makers",
+        "src-aonami"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "金城ふ头的配套商业街，作为铁道馆附加项即可。",
+      "notes": []
+    },
+    {
+      "id": "inuyama-castle",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "犬山城",
+        "ja": "犬山城",
+        "en": "Inuyama Castle"
+      },
+      "area_id": "area-inuyama",
+      "area": "犬山",
+      "location": {
+        "address": "爱知县犬山市犬山北古券65-2",
+        "latitude": 35.3884,
+        "longitude": 136.9392,
+        "nearest_stations": [
+          "犬山游园站",
+          "犬山站"
+        ],
+        "source_ids": [
+          "src-inuyama-castle"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "城堡",
+        "国宝",
+        "观景"
+      ],
+      "tags": [
+        "推荐",
+        "历史",
+        "景色",
+        "拍照"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "原木国宝天守与河景值得专程，但往返耗时、室外步行和极陡楼梯明显增加父母负担。",
+          "source_ids": [
+            "src-google-inuyama-castle",
+            "src-tripadvisor-inuyama-castle"
+          ],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [
+            "google",
+            "tripadvisor"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [
+            {
+              "platform": "google",
+              "score": 4.4,
+              "scale": 5,
+              "review_count": 18136,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-google-inuyama-castle"
+              ],
+              "verified_at": "2026-08-26"
+            },
+            {
+              "platform": "tripadvisor",
+              "score": 4.4,
+              "scale": 5,
+              "review_count": 1074,
+              "checked_at": "2026-08-26",
+              "source_ids": [
+                "src-tripadvisor-inuyama-castle"
+              ],
+              "verified_at": "2026-08-26"
+            }
+          ],
+          "display_text": "Google 4.4/5（18,136条）；Tripadvisor 4.4/5（1,074条）",
+          "source_ids": [
+            "src-google-inuyama-castle",
+            "src-tripadvisor-inuyama-castle"
+          ],
+          "verified_at": "2026-08-26"
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 1000,
+        "senior_amount": null,
+        "display_text": "成人1,000日元",
+        "source_ids": [
+          "src-inuyama-castle"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": "16:30",
+        "display_text": "09:00–17:00；12月29–31日休城；拥挤时可能限制入场",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-inuyama-castle"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-inuyama-castle"
+        ],
+        "verified_at": "2026-08-28"
+      },
+      "visit_duration_minutes": {
+        "quick": 60,
+        "recommended": 90,
+        "slow": 150,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-inuyama-castle"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 55,
+        "modes": [
+          "rail",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 630
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 15,
+        "reference_route_text": "名铁名古屋直达犬山游园/犬山站，再步行15–20分钟",
+        "source_ids": [
+          "src-meitetsu",
+          "src-inuyama-castle"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "较多",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "天守内无休息座椅，城前广场可休息。",
+        "barrier_free_notes": "天守为原木建筑，仅陡峭楼梯，无电梯；需脱鞋，最上层回廊栏杆低。",
+        "heat_suitability": "low",
+        "heat_notes": "登城坡道和候场在室外，务必开门即到。"
+      },
+      "recommended_time_slots": [
+        "morning"
+      ],
+      "links": {
+        "official_site_source_id": "src-inuyama-castle",
+        "official_hours_source_id": "src-inuyama-castle",
+        "official_ticket_source_id": "src-inuyama-castle",
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-inuyama-castle",
+        "src-meitetsu"
+      ],
+      "last_information_verified_at": "2026-08-28",
+      "images": [],
+      "summary_zh": "犬山核心，风景与历史感强；是否登顶必须按父母膝腿状况决定。",
+      "notes": [
+        "天守内部楼梯非常陡峭，非无障碍。"
+      ]
+    },
+    {
+      "id": "inuyama-castle-town",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "犬山城下町",
+        "ja": "犬山城下町",
+        "en": "Inuyama Castle Town"
+      },
+      "area_id": "area-inuyama",
+      "area": "犬山",
+      "location": {
+        "address": "爱知县犬山市犬山本町通一带",
+        "latitude": 35.3828,
+        "longitude": 136.9442,
+        "nearest_stations": [
+          "犬山站"
+        ],
+        "source_ids": [
+          "src-inuyama-town"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "历史街区",
+        "商店街"
+      ],
+      "tags": [
+        "推荐",
+        "历史",
+        "购物",
+        "拍照"
+      ],
+      "environment": "mixed",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "从车站通往城的自然路线，吃喝和老街氛围好；中午较热且可能拥挤。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "公共街区免费；消费另计",
+        "source_ids": [
+          "src-inuyama-town"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "09:00–17:00；公共道路可通行；多数店铺约10:00后营业且休息日不同",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-inuyama-town"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-inuyama-town"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 60,
+        "recommended": 120,
+        "slow": 180,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-inuyama-town"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 50,
+        "modes": [
+          "rail",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 630
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 10,
+        "reference_route_text": "名铁名古屋直达犬山站，西口步行进入城下町",
+        "source_ids": [
+          "src-meitetsu",
+          "src-inuyama-town"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通到较多",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "沿街餐饮较多，但高峰时座位紧张。",
+        "barrier_free_notes": "主街较平坦，部分老店有门槛；车辆管制信息需出发前复查。",
+        "heat_suitability": "low",
+        "heat_notes": "长距离室外步行，建议上午去城、午后再逛街。"
+      },
+      "recommended_time_slots": [
+        "late_morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-inuyama-town",
+        "official_hours_source_id": "src-inuyama-town",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-inuyama-town",
+        "src-meitetsu"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "连接犬山站与城的历史商街，是犬山半日/一日的重要组成。",
+      "notes": []
+    },
+    {
+      "id": "sanko-inari",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "三光稻荷神社",
+        "ja": "三光稲荷神社",
+        "en": "Sanko Inari Shrine"
+      },
+      "area_id": "area-inuyama",
+      "area": "犬山",
+      "location": {
+        "address": "爱知县犬山市犬山北古券41-1",
+        "latitude": 35.387,
+        "longitude": 136.9407,
+        "nearest_stations": [
+          "犬山游园站",
+          "犬山站"
+        ],
+        "source_ids": [
+          "src-sanko"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "神社",
+        "拍照"
+      ],
+      "tags": [
+        "历史",
+        "拍照",
+        "免费",
+        "少走路"
+      ],
+      "environment": "outdoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "红鸟居与钱洗体验受欢迎，位置就在犬山城脚下，顺路价值高。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "境内免费",
+        "source_ids": [
+          "src-sanko"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "08:30",
+            "close": "16:30"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "08:30–16:30；无固定休息日公告；授与所时间可能调整",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-sanko"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-sanko"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 15,
+        "recommended": 30,
+        "slow": 50,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-sanko"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 55,
+        "modes": [
+          "rail",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 630
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 15,
+        "reference_route_text": "交通同犬山城，位于登城入口附近",
+        "source_ids": [
+          "src-meitetsu",
+          "src-sanko"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "境内有台阶与石路；规模小，可不登高。",
+        "heat_suitability": "medium",
+        "heat_notes": "停留短但为室外。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-sanko",
+        "official_hours_source_id": "src-sanko",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-sanko",
+        "src-meitetsu"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "犬山城脚下的红鸟居神社，建议顺路，不需单独安排。",
+      "notes": []
+    },
+    {
+      "id": "haritsuna-shrine",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "针纲神社",
+        "ja": "針綱神社",
+        "en": "Haritsuna Shrine"
+      },
+      "area_id": "area-inuyama",
+      "area": "犬山",
+      "location": {
+        "address": "爱知县犬山市犬山北古券65-1",
+        "latitude": 35.3875,
+        "longitude": 136.9399,
+        "nearest_stations": [
+          "犬山游园站",
+          "犬山站"
+        ],
+        "source_ids": [
+          "src-haritsuna"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "神社",
+        "历史"
+      ],
+      "tags": [
+        "历史",
+        "免费",
+        "少走路"
+      ],
+      "environment": "outdoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 3,
+          "status": "editorial_recommendation",
+          "reason": "与犬山城、三光稻荷相邻，顺路参拜即可。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "参拜免费",
+        "source_ids": [
+          "src-haritsuna"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday",
+              "saturday",
+              "sunday"
+            ],
+            "open": "09:00",
+            "close": "17:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "09:00–17:00；无固定休息；祈祷受理通常9:00–15:00",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-haritsuna"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-haritsuna"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 15,
+        "recommended": 25,
+        "slow": 45,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-haritsuna"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 55,
+        "modes": [
+          "rail",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 630
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 15,
+        "reference_route_text": "交通同犬山城",
+        "source_ids": [
+          "src-meitetsu",
+          "src-haritsuna"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "少到普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "参道有楼梯，官网提示上下行分流；无障碍情况需现场确认。",
+        "heat_suitability": "medium",
+        "heat_notes": "停留短但为室外。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-haritsuna",
+        "official_hours_source_id": "src-haritsuna",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-haritsuna",
+        "src-meitetsu"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "犬山祭相关的古社，作为登城前后短暂停留。",
+      "notes": []
+    },
+    {
+      "id": "kiso-river-promenade",
+      "record_status": "verified_candidate",
+      "names": {
+        "zh": "木曾川游步道",
+        "ja": "木曽川遊歩道",
+        "en": "Kiso River Promenade"
+      },
+      "area_id": "area-inuyama",
+      "area": "犬山",
+      "location": {
+        "address": "爱知县犬山市犬山 木曾川沿岸",
+        "latitude": 35.3915,
+        "longitude": 136.9408,
+        "nearest_stations": [
+          "犬山游园站"
+        ],
+        "source_ids": [
+          "src-kiso"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "place_types": [
+        "河畔步道",
+        "观景"
+      ],
+      "tags": [
+        "景色",
+        "拍照",
+        "免费"
+      ],
+      "environment": "outdoor",
+      "ratings": {
+        "recommendation": {
+          "stars": 4,
+          "status": "editorial_recommendation",
+          "reason": "能从河畔看犬山城，景观好；九月正午暴晒，不宜长走。",
+          "source_ids": [],
+          "verified_at": "2026-08-26"
+        },
+        "domestic": {
+          "platforms": [
+            "xiaohongshu"
+          ],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "japan_local": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        },
+        "overseas": {
+          "platforms": [],
+          "score": null,
+          "scale": null,
+          "review_count": null,
+          "aggregation_method": "none",
+          "entries": [],
+          "display_text": "暂无足够评价",
+          "source_ids": [],
+          "verified_at": null
+        }
+      },
+      "admission": {
+        "currency": "JPY",
+        "adult_amount": 0,
+        "senior_amount": null,
+        "display_text": "免费",
+        "source_ids": [
+          "src-kiso"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "opening_hours": {
+        "timezone": "Asia/Tokyo",
+        "weekly": [
+          {
+            "days": [
+              "monday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "tuesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "wednesday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "thursday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "friday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "saturday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          },
+          {
+            "days": [
+              "sunday"
+            ],
+            "open": "00:00",
+            "close": "24:00"
+          }
+        ],
+        "last_admission": null,
+        "display_text": "24小时；公共步道全天开放；暴雨、河水上涨时避免进入低处路线",
+        "closure_rules": {
+          "fixed_weekdays": [],
+          "holiday_shift_rule": null,
+          "irregular_closures": false,
+          "temporary_closures": []
+        },
+        "source_ids": [
+          "src-kiso"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "trip_date_status": {
+        "status": "normal_schedule",
+        "dates": {
+          "2026-09-01": "预计开放",
+          "2026-09-02": "预计开放",
+          "2026-09-03": "预计开放",
+          "2026-09-04": "预计开放"
+        },
+        "summary_zh": "按已公布的2026年日历与固定休馆规则，旅行日期内预计开放；出发前仍需复查临时公告。",
+        "source_ids": [
+          "src-kiso"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "visit_duration_minutes": {
+        "quick": 20,
+        "recommended": 45,
+        "slow": 75,
+        "estimate_type": "reference_estimate",
+        "basis_zh": "结合设施规模、官方说明和常见参观节奏的参考估算，不是官方承诺时长。",
+        "source_ids": [
+          "src-kiso"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "transport_from_hotel": {
+        "duration_minutes": 50,
+        "modes": [
+          "rail",
+          "walk"
+        ],
+        "one_way_fare": {
+          "currency": "JPY",
+          "amount": 630
+        },
+        "transfers": 0,
+        "walk_from_station_minutes": 3,
+        "reference_route_text": "名铁名古屋至犬山游园站，西口步行约3分钟",
+        "source_ids": [
+          "src-meitetsu",
+          "src-kiso"
+        ],
+        "verified_at": "2026-08-26"
+      },
+      "parent_access": {
+        "walking_intensity": "普通",
+        "friendliness_level": "较友好",
+        "rest_seat_notes": "休息点信息以现场为准。",
+        "barrier_free_notes": "有河岸与堤顶两条路线；低处路线可能不平，优先堤顶。",
+        "heat_suitability": "low",
+        "heat_notes": "无遮阳，建议早晨或傍晚，仅走短段。"
+      },
+      "recommended_time_slots": [
+        "morning",
+        "late_afternoon"
+      ],
+      "links": {
+        "official_site_source_id": "src-kiso",
+        "official_hours_source_id": "src-kiso",
+        "official_ticket_source_id": null,
+        "map_source_ids": []
+      },
+      "source_ids": [
+        "src-kiso",
+        "src-meitetsu"
+      ],
+      "last_information_verified_at": "2026-08-26",
+      "images": [],
+      "summary_zh": "河畔看城视角很好，作为犬山行程的短散步收尾。",
+      "notes": []
+    }
+  ]
+}

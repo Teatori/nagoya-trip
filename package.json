@@ -1,0 +1,19 @@
+{
+  "name": "nagoya-family-trip",
+  "version": "1.0.0",
+  "private": true,
+  "description": "适合父母手机使用的名古屋景点、餐厅与路线助手",
+  "scripts": {
+    "test": "node tests/validate-data.mjs",
+    "test:route": "node --test tests/route-planner.test.mjs",
+    "test:route:4b": "node --test tests/route-planner-4b.test.mjs",
+    "test:maps": "node --test tests/maps.test.mjs",
+    "test:all": "node tests/validate-data.mjs && node --test tests/route-planner.test.mjs tests/route-planner-4b.test.mjs tests/maps.test.mjs",
+    "test:links": "node tests/qa-links.mjs",
+    "test:links:breakfast": "node tests/qa-links.mjs --breakfast-only",
+    "test:links:lunch": "node tests/qa-links.mjs --lunch-only",
+    "test:links:dinner": "node tests/qa-links.mjs --dinner-only",
+    "test:links:frontend": "node tests/qa-frontend-links.mjs",
+    "serve": "python -m http.server 8000"
+  }
+}

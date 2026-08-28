@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.2.0",
+  "dataset_status": "public_route_config",
+  "description": "公开版名古屋路线生成器配置；不包含住宿状态、航班或固定个人行程。",
+  "locale": "zh-CN",
+  "timezone": "Asia/Tokyo",
+  "currency": "JPY",
+  "route_origins": {
+    "default_id": "nagoya-station",
+    "options": [
+      {
+        "id": "nagoya-station",
+        "label_zh": "名古屋站",
+        "transit_node_ref": "hotel-nagoya-marriott-associa",
+        "area_id": "area-meieki",
+        "location": { "latitude": 35.1709, "longitude": 136.8821 },
+        "role": "public_transport_hub"
+      },
+      {
+        "id": "nagoya-marriott-nearby",
+        "label_zh": "名古屋万豪附近",
+        "transit_node_ref": "hotel-nagoya-marriott-associa",
+        "area_id": "area-meieki",
+        "location": { "latitude": 35.1709, "longitude": 136.8821 },
+        "role": "geographic_shortcut"
+      }
+    ]
+  },
+  "default_route": {
+    "origin_id": "nagoya-station",
+    "destination_policy": "return_to_origin"
+  },
+  "departure_day_option": {
+    "default_enabled": false,
+    "route_end_deadline_default": null,
+    "planning_policy": "conservative_when_enabled",
+    "display_note_zh": "只有用户勾选离境日后才启用保守限制；未填写最晚结束时间时不会猜测安全时间。"
+  },
+  "route_options": {
+    "date_input": {
+      "type": "date",
+      "allow_any_valid_date": true,
+      "temporary_information_policy": "warn_when_date_not_explicitly_researched"
+    },
+    "default_start_time": "09:00",
+    "start_time_options": [
+      { "id": "morning", "label_zh": "上午开始", "time": "09:00" },
+      { "id": "afternoon", "label_zh": "下午开始", "time": "13:30" }
+    ],
+    "duration_profiles": [
+      { "id": "half_day", "label_zh": "半天", "min_minutes": 180, "max_minutes": 240 },
+      { "id": "most_day", "label_zh": "大半天", "min_minutes": 300, "max_minutes": 360 },
+      { "id": "full_day", "label_zh": "一整天", "min_minutes": 420, "max_minutes": 540 }
+    ],
+    "pace_profiles": [
+      { "id": "easy", "label_zh": "少走路", "visit_duration_rule": "recommended", "base_buffer_minutes": 25, "per_place_buffer_minutes": 20 },
+      { "id": "normal", "label_zh": "普通", "visit_duration_rule": "recommended", "base_buffer_minutes": 20, "per_place_buffer_minutes": 15 },
+      { "id": "active", "label_zh": "多逛几个", "visit_duration_rule": "quick_or_lower_recommended", "base_buffer_minutes": 15, "per_place_buffer_minutes": 10 }
+    ],
+    "meal_break_minutes": { "half_day": 0, "most_day": 45, "full_day": 60 },
+    "formal_route": {
+      "meal_target_times": { "breakfast": "08:30", "lunch": "12:00", "dinner": "18:00" },
+      "meal_earliest_times": { "breakfast": "06:30", "lunch": "11:00", "dinner": "17:00" },
+      "meal_stop_minutes": { "breakfast": 45, "lunch": 60, "dinner": 75 },
+      "queue_planning_margin_minutes": { "low": 0, "medium": 0, "high": 10, "very_high": 25 },
+      "public_time_rounding_minutes": 15,
+      "restaurant_time_rounding_minutes": 30,
+      "max_meals_per_type": 1,
+      "unverified_segment_policy": "allow_with_warning"
+    },
+    "remote_area_ids": ["area-port", "area-kinjo-futo", "area-inuyama"],
+    "required_checks": ["opening_hours_for_date", "fixed_closures", "date_exceptions", "last_admission", "restaurant_last_order"]
+  }
+}
