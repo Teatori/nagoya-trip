@@ -1,0 +1,34 @@
+name: Install itinerary map loader
+on:
+  push:
+    paths:
+      - '.github/workflows/add-itinerary-maps-loader.yml'
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add script loader
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          old = '  <script src="js/curated-itinerary.js?v=1" defer></script>\n'
+          new = old + '  <script src="js/itinerary-maps.js?v=1" defer></script>\n'
+          if 'js/itinerary-maps.js' not in s:
+              if old not in s:
+                  raise SystemExit('curated itinerary loader not found')
+              s = s.replace(old, new, 1)
+              p.write_text(s, encoding='utf-8')
+          Path('.github/workflows/add-itinerary-maps-loader.yml').unlink()
+          PY
+      - name: Commit update
+        run: |
+          git config user.name "Teatori"
+          git config user.email "321367597+Teatori@users.noreply.github.com"
+          git add index.html .github/workflows/add-itinerary-maps-loader.yml
+          git commit -m "Enable itinerary Google route maps"
+          git push
